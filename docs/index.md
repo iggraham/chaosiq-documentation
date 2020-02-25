@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# Welcome to ChaosIQ Console Documtation
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+ChaosIQ is the place where you can explore the reliability of your system using ChaosIQ's Reliability Workflow.
 
-## Commands
+Where you can describe what you care about and how to measure it, surface insights and respond to these insights to improve your system’s reliability.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* [Getting Started with ChaosIQ](getting-started)
