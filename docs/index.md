@@ -1,4 +1,4 @@
-# Welcome to ChaosIQ Console Documtation
+# Welcome to the ChaosIQ Documentation
 
 ChaosIQ is the place where you can explore the reliability of your system using ChaosIQ's Reliability Workflow.
 
