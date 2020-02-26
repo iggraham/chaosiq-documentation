@@ -1,1 +1,9 @@
 site_name: ChaosIQ Documentation
+site_author: ChaosIQ Limited
+site_description: ChaosIQ Documentation
+copyright: '&copy; 2020 ChaosIQ Limited'
+theme:
+  name: material
+  palette:
+    primary: "white"
+    accent: "yellow"
