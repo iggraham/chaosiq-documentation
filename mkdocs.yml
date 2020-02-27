@@ -9,3 +9,6 @@ theme:
   palette:
     primary: "white"
     accent: "yellow"
+nav:
+  - Welcome: index.md
+  - The Reliability Workflow: reliability-workflow/reliability-workflow.md
