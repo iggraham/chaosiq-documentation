@@ -4,11 +4,18 @@ site_description: ChaosIQ Documentation
 copyright: '&copy; 2020 ChaosIQ Limited'
 theme:
   name: material
-  favicon: "static/images/chaosiq-mark.png"
-  logo: "static/images/logo.png"
+  favicon: "static/images/favicon.ico"
+  logo: "static/images/chaosiq-mark.png"
   palette:
     primary: "white"
     accent: "yellow"
 nav:
   - Welcome: index.md
   - The Reliability Workflow: reliability-workflow/reliability-workflow.md
+  - Getting Started:
+    - Introduction: gettingstarted/introduction.md
+    - Install Chaos Toolkit: gettingstarted/install-ctk.md
+    - Add the ChaosIQ Plugin to your Chaos Toolkit: gettingstarted/add-chaos-iq.md
+    - Create Your first Objective: gettingstarted/first-objective.md
+    - Create Your first Verification: gettingstarted/first-verification.md
+    - Run your first Verification: gettingstarted/run-first-verification.md
