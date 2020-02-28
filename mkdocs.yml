@@ -10,12 +10,18 @@ theme:
     primary: "white"
     accent: "yellow"
 nav:
-  - Welcome: index.md
-  - The Reliability Workflow: reliability-workflow/reliability-workflow.md
-  - Getting Started:
+- Welcome: index.md
+- The Reliability Workflow: reliability-workflow/reliability-workflow.md
+- Getting Started:
     - Introduction: gettingstarted/introduction.md
     - Install Chaos Toolkit: gettingstarted/install-ctk.md
     - Add the ChaosIQ Plugin to your Chaos Toolkit: gettingstarted/add-chaos-iq.md
+    - Organizations and Teams: gettingstarted/organizations-and-teams-intro.md
     - Create Your first Objective: gettingstarted/first-objective.md
     - Create Your first Verification: gettingstarted/first-verification.md
     - Run your first Verification: gettingstarted/run-first-verification.md
+- Organizations and Teams:
+    - Introduction: organizations-and-teams/organizations-and-teams-intro.md
+    - Inviting people to your Organization: organizations-and-teams/invite-to-an-organization.md
+    - Creating a Team: ./organizations-and-teams/creating-a-team.md
+    - Publishing to a Team: ./organizations-and-teams/publishing-to-a-team.md
