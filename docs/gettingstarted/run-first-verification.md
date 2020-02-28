@@ -1,5 +1,3 @@
-## Run your Verification
-
 ![Verification Run][VerificationRun]
 
 [VerificationRun]: ./verification-run.png

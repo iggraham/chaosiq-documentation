@@ -1,5 +1,3 @@
-## Install the Chaos Toolkit CLI
-
 **If you’ve already got a working installation of the Chaos Toolkit CLI then you can skip directly to [Signin to ChaosIQ with your credentials](#signin-to-chaosiq-with-your-credentials)**
 
 ### Creating a new Chaos Toolkit CLI Installation using pip
