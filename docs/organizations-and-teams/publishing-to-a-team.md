@@ -1,5 +1,3 @@
-# Publishing Verifications to a team
-
 For Chaos Toolkit to send Verifications and Executions data to a team, you must have the ChaosIQ Cloud extension installed.
 
 ```
@@ -35,11 +33,3 @@ If you run an experiment with the `chaos run` command, it will now be published 
 ![Chaos Run](./chaos-run.png)
 
 ![Executions](./executions.png)
-
-## Switching teams
-
-Run the `chaos team` command again to be able to choose a new default team to publish to.
-
-## Switching Organizations
-
-If you want to select a team from another organizations, use the `chaos org` command and you will be asked to select an organization and a team.

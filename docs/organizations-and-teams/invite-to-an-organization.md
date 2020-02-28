@@ -1,5 +1,3 @@
-# Viewing members and inviting people to your organization
-
 From the organization view, click on the *People* link in the sidebar to display a list of the members of your organization.
 
 ![](./organization-members-list.png)

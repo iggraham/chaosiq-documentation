@@ -1,0 +1,1 @@
+If you want to select a team from another organizations, use the `chaos org` command and you will be asked to select an organization and a team.

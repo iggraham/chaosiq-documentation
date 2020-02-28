@@ -1,5 +1,3 @@
-# Creating a team
-
 You can create an unlimited number of teams in your organization. Teams can be used to gather real-life teams or members of different teams working on common projects. They are a flexible model that should be able to fit the way you and your teammates want to work.
 
 Opening the Teams dropdown in the top-left corner of the window will list your available teams as well as allow you to create a new one.
