@@ -1,5 +1,3 @@
-# Introduction
-
 This document will show you the steps to run your first Verification with the Chaos Toolkit and publish the results to ChaosIQ.
 
 The workflow in ChaosIQ is organized around [Objectives](objectives) and [Verifications](verification). Objectives identify the parts of your system that you care about and are highly related to what keeps your users happy. Verifications explore the impact on your objectives under various conditions, such as failures.

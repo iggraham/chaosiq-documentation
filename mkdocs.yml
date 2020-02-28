@@ -16,9 +16,8 @@ nav:
     - Introduction: gettingstarted/introduction.md
     - Install Chaos Toolkit: gettingstarted/install-ctk.md
     - Add the ChaosIQ Plugin to your Chaos Toolkit: gettingstarted/add-chaos-iq.md
-    - Organizations and Teams: gettingstarted/organizations-and-teams-intro.md
-    - Create Your first Objective: gettingstarted/first-objective.md
-    - Create Your first Verification: gettingstarted/first-verification.md
+    - Create your first Objective: gettingstarted/first-objective.md
+    - Create your first Verification: gettingstarted/first-verification.md
     - Run your first Verification: gettingstarted/run-first-verification.md
 - Organizations and Teams:
     - Introduction: organizations-and-teams/organizations-and-teams-intro.md

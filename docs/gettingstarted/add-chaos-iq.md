@@ -1,5 +1,3 @@
-# Add ChaosIQ to your Chaos Toolkit CLI installation
-
 ChaosIQ is added to your Chaos Toolkit as a [plugin](https://github.com/chaosiq/chaosiq-cloud). The ChaosIQ features can be added to your Chaos Toolkit CLI installation by executing:
 
 ```

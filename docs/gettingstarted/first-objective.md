@@ -1,5 +1,3 @@
-# Create your first Objective
-
 Ensure you have a team selected using the drop-down at the to left of the ChaosIQ console.
 
 ![Select Team][selectTeam]
