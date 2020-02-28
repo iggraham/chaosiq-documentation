@@ -22,6 +22,9 @@ nav:
     - Run your first Verification: gettingstarted/run-first-verification.md
 - Organizations and Teams:
     - Introduction: organizations-and-teams/organizations-and-teams-intro.md
+    - Creating an Organization: organizations-and-teams/create-organization.md
     - Inviting people to your Organization: organizations-and-teams/invite-to-an-organization.md
-    - Creating a Team: ./organizations-and-teams/creating-a-team.md
-    - Publishing to a Team: ./organizations-and-teams/publishing-to-a-team.md
+    - Creating a Team: organizations-and-teams/creating-a-team.md
+    - Publishing Verifications to a Team: organizations-and-teams/publishing-to-a-team.md
+    - Switching Teams: organizations-and-teams/switching-teams.md
+    - Switching Organizations: organizations-and-teams/switching-organizations.md
