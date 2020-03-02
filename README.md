@@ -1,4 +1,6 @@
 # ChaosIQ Documentation
+[![Build Status](https://travis-ci.com/chaosiq/chaosiq-documentation.svg?branch=master)](https://travis-ci.com/chaosiq/chaosiq-documentation)
+
 Public documentation for ChaosIQ
 
 
