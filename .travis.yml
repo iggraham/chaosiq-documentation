@@ -1,0 +1,32 @@
+language: python
+
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y jq
+
+python:
+  - 3.7
+
+install:
+  - pip install -r requirements.txt
+
+env:
+  global:
+  - GH_USER_NAME: "chaosiq-ci"
+  - secure: "Se+wvuB32lCehR+RTtGxfWfCbCvt6CBNkaAYVL6iUaafTkD35zGg/NCeYUfPLGQNgqPY7XjIWljvthvDiD8VB/AbmwHR/BXlTO4+gY9o9TgSk2yARMJ3zU7Zj6APM90vl4MUz6LNTiKTQkXH+61W88A28jhhVhpA1smj3WfFMvfWCkTuGqY1wbQEoxOhhz0bLw4hNrfXSEtLOA4VLznTzQj8MwacQUDymphX4vNLIOF10OEasMJ29j8Govlgu9dHH9/rHxv45QPj4Afr2mkrSsg6XeYzEZTyNf47PRa76rLPpo/eD1HX1gk9zDukEdAf9Yc9/xzviyl9RnzrqFl3QRZFwUm8iZZ49nGG1BgZgvz65CjDyjfE1HfqsLeMgI7myMxcQ6nKrDCVim8V9aCxMNU/6ITr/QjZW560bIu8Er3b0PI8QMlpAk2b0LZxyjj5lbqy9IBkQlC2JBlMTwCiBWRORsVQNBLqS42WxvMZtbPeYYEnVPP13+msSAx9nwb00qhAeaqE0eX+ZwLkViZvX10UxzISe9cxFMoh6wI1+zdhcr6669zNOCHG+oWjIVBlncUCFtAg6gdGHrBqoErCtaz8Fw+hgPf+zL+8NJ5eWdMl96tosvuYk7288higa2LlhAANfKSGWPvwqwHgl01emsJWtUkx8M1xt4JuOXLIRNk="
+
+script: 
+  - bash ci.bash
+
+branches:
+  except:
+  - gh-pages
+notifications:
+  webhooks:
+    urls:
+    - 'https://webhook.atomist.com/atomist/travis/teams/T76U4GPGF'
+    on_cancel: always
+    on_error: always
+    on_start: always
+    on_failure: always
+    on_success: always
