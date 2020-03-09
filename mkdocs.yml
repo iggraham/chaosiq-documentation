@@ -6,9 +6,11 @@ theme:
   name: material
   favicon: "static/images/favicon.ico"
   logo: "static/images/chaosiq-mark.png"
-  palette:
-    primary: "white"
-    accent: "yellow"
+  font:
+    text: "IBM Plex Sans"
+    code: "IBM Plex Mono"
+extra_css:
+  - css/styles.css
 nav:
 - Welcome: index.md
 - The Reliability Workflow: reliability-workflow/reliability-workflow.md
