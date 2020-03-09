@@ -29,4 +29,8 @@ nav:
     - Publishing Verifications to a Team: organizations-and-teams/publishing-to-a-team.md
     - Switching Teams: organizations-and-teams/switching-teams.md
     - Switching Organizations: organizations-and-teams/switching-organizations.md
-- Deployment Options: deployment-options/deployment-options.md 
+- Deployment Options: deployment-options/deployment-options.md
+- Frequently Asked Questions (FAQ):
+    - Introduction: faq/faq-intro.md
+    - How do I check I have the latest version of the ChaosIQ plugin: faq/plugin.md
+
