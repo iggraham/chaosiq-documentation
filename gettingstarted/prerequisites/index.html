@@ -594,40 +594,48 @@
 <p><strong>If you’ve already got a working installation of the Chaos Toolkit CLI then you can skip directly to <a href="#add-the-chaosiq-plugin-to-your-chaos-toolkit">Add the ChaosIQ Plugin</a></strong></p>
 <h2 id="creating-a-new-chaos-toolkit-cli-installation-using-pip">Creating a new Chaos Toolkit CLI Installation using pip</h2>
 <p>The Chaos Toolkit CLI is implemented in Python 3 and so needs a working Python installation at version 3.5+. When you execute the python3 command on your machine you see something like the following then you are all set:</p>
-<pre><code>$ python3 --version
+<div class="codehilite"><pre><span></span><code>$ python3 --version
 Python 3.7.6
-</code></pre>
+</code></pre></div>
+
 
 <p>If you see a version lower than 3.5 then you’ll first need to install a later version of Python. This is well documented on the <a href="https://docs.chaostoolkit.org/reference/usage/install/">Chaos Toolkit install page</a></p>
 <h4 id="create-a-python-virtual-environment">Create a Python Virtual Environment</h4>
 <p>Dependencies can be installed for your Python installation through pip and it’s often a good idea to create a Python <a href="https://docs.python.org/3/tutorial/venv.html">Virtual Environment</a> to contain your Chaos Toolkit CLI installation libraries.</p>
 <p>To create a Python virtual environment called <code>chaostk</code> execute the following:</p>
-<pre><code>python3 -m venv ~/.venvs/chaostk
-</code></pre>
+<div class="codehilite"><pre><span></span><code>python3 -m venv ~/.venvs/chaostk
+</code></pre></div>
+
 
 <p>Now you can activate your virtual environment by executing:</p>
-<pre><code>$ source  ~/.venvs/chaostk/bin/activate
+<div class="codehilite"><pre><span></span><code>$ source  ~/.venvs/chaostk/bin/activate
   (chaostk) $
-</code></pre>
+</code></pre></div>
 
-<p>The <a href="https://virtualenvwrapper.readthedocs.io/en/latest/">virtualenvwrapper</a> is a great tool
-  that simplifies working with Python virtual environments.</p>
+
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You may want to use <a href="https://virtualenvwrapper.readthedocs.io/en/latest/">virtualenvwrapper</a> to make this process much nicer.</p>
+</div>
 <h4 id="install-the-chaos-toolkit-cli-using-pip">Install the Chaos Toolkit CLI using pip</h4>
 <p>You install the Chaos Toolkit CLI as the Python chaostoolkit module into your virtual environment by using pip:</p>
-<pre><code>(chaostk) $ pip install chaostoolkit
-</code></pre>
+<div class="codehilite"><pre><span></span><code>(chaostk) $ pip install chaostoolkit
+</code></pre></div>
+
 
 <p>You can verify the Chaos Toolkit CLI was installed by running:</p>
-<pre><code>(chaostk) $ chaos --version
+<div class="codehilite"><pre><span></span><code>(chaostk) $ chaos --version
 chaos, version 1.4.1
-</code></pre>
+</code></pre></div>
+
 
 <h2 id="add-the-chaosiq-plugin-to-your-chaos-toolkit">Add the ChaosIQ Plugin to your Chaos Toolkit</h2>
 <p>In order for the Chaos Toolkit to communicate with ChaosIQ you need to add the chaosiq-cloud plugin to your Chaos Toolkit installation.</p>
 <p>The chaosiq-cloud plugin is a Python package and can be found in the Python Package Index (PyPI) <a href="https://pypi.org/project/chaosiq-cloud/">chaosiq-cloud</a>.</p>
 <p>The ChaosIQ features can be added to your Chaos Toolkit CLI installation by executing:</p>
-<pre><code class="bash">(chaostk) $ pip install chaosiq-cloud
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="o">(</span>chaostk<span class="o">)</span> $ pip install chaosiq-cloud
+</code></pre></div>
+
 
 <p><em>That’s it!</em> You’ve got a working installation of the Chaos Toolkit CLI and the chaosiq-cloud plugin installed. The next step is to set up your Chaos Toolkit CLI to use your ChaosIQ account.</p>
                 
