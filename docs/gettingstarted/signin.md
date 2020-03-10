@@ -1,12 +1,7 @@
-ChaosIQ is added to your Chaos Toolkit as a [plugin](https://github.com/chaosiq/chaosiq-cloud). The ChaosIQ features can be added to your Chaos Toolkit CLI installation by executing:
 
-```
-(chaostk) $ pip install chaosiq-cloud
-```
+So that your Chaos Toolkit installation can communicate with ChaosIQ, you need to set up your credentials using the `chaos signin` command.
 
-## Sign-in to ChaosIQ with your Credentials
-
-So that your Chaos Toolkit installation can interact with ChaosIQ, you need to set up your credentials using the `chaos signin` command. A token is generated from the  ChaosIQ [Tokens tab](https://console.chaosiq.io/tokens).
+First generate a token from the  ChaosIQ [Tokens tab](https://console.chaosiq.io/tokens).
 
 ![Tokens Page][TokensPage]
 
@@ -29,3 +24,5 @@ Use the `chaos signin` command to connect to ChaosIQ and add your token. When th
   Experiments and executions will be published to organization 'MyName'
   ChaosIQ Cloud details saved at ~/.chaostoolkit/settings.yaml
 ```
+
+Your Chaos toolkit will now publish executions to ChaosIQ.

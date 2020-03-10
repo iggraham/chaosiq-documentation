@@ -4,8 +4,8 @@ The workflow in ChaosIQ is organized around [Objectives](objectives) and [Verifi
 
 We will go through the steps required to get your first Verification running and published into ChaosIQ:
 
-1. [Install the Chaos Toolkit](../install-ctk).
-1. [Add the ChaosIQ Plugin to your Chaos Toolkit](../add-chaos-iq).
-1. [Create your first Observation](../first-objective).
+1. [Prerequisites](../prerequisites).
+1. [Sign-in to ChaosIQ](../signin).
+1. [Create your first Objective](../first-objective).
 1. [Create your first Verification](../first-verification).
 1. [Run your first Verification](../run-first-verification).
