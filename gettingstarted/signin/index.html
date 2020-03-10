@@ -40,7 +40,7 @@
     
     
       
-        <title>Add the ChaosIQ Plugin to your Chaos Toolkit - ChaosIQ Documentation</title>
+        <title>Sign-in to ChaosIQ - ChaosIQ Documentation</title>
       
     
     
@@ -81,10 +81,6 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#sign-in-to-chaosiq-with-your-credentials" tabindex="0" class="md-skip">
-        Skip to content
-      </a>
-    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -107,7 +103,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Add the ChaosIQ Plugin to your Chaos Toolkit
+                Sign-in to ChaosIQ
               
             </span>
           
@@ -233,8 +229,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../install-ctk/" title="Install Chaos Toolkit" class="md-nav__link">
-      Install Chaos Toolkit
+    <a href="../prerequisites/" title="Prerequisites" class="md-nav__link">
+      Prerequisites
     </a>
   </li>
 
@@ -251,36 +247,9 @@
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
     
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Add the ChaosIQ Plugin to your Chaos Toolkit
-      </label>
-    
-    <a href="./" title="Add the ChaosIQ Plugin to your Chaos Toolkit" class="md-nav__link md-nav__link--active">
-      Add the ChaosIQ Plugin to your Chaos Toolkit
+    <a href="./" title="Sign-in to ChaosIQ" class="md-nav__link md-nav__link--active">
+      Sign-in to ChaosIQ
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#sign-in-to-chaosiq-with-your-credentials" class="md-nav__link">
-    Sign-in to ChaosIQ with your Credentials
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
     
   </li>
 
@@ -489,49 +458,16 @@
               </div>
             
             
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#sign-in-to-chaosiq-with-your-credentials" class="md-nav__link">
-    Sign-in to ChaosIQ with your Credentials
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                  <h1>Add the ChaosIQ Plugin to your Chaos Toolkit</h1>
+                  <h1>Sign-in to ChaosIQ</h1>
                 
-                <p>ChaosIQ is added to your Chaos Toolkit as a <a href="https://github.com/chaosiq/chaosiq-cloud">plugin</a>. The ChaosIQ features can be added to your Chaos Toolkit CLI installation by executing:</p>
-<pre><code>(chaostk) $ pip install chaosiq-cloud
-</code></pre>
-
-<h2 id="sign-in-to-chaosiq-with-your-credentials">Sign-in to ChaosIQ with your Credentials</h2>
-<p>So that your Chaos Toolkit installation can interact with ChaosIQ, you need to set up your credentials using the <code>chaos signin</code> command. A token is generated from the  ChaosIQ <a href="https://console.chaosiq.io/tokens">Tokens tab</a>.</p>
+                <p>So that your Chaos Toolkit installation can communicate with ChaosIQ, you need to set up your credentials using the <code>chaos signin</code> command.</p>
+<p>First generate a token from the  ChaosIQ <a href="https://console.chaosiq.io/tokens">Tokens tab</a>.</p>
 <p><img alt="Tokens Page" src="../tokens-page.png" /></p>
 <p>Enter a token name and click the <code>Generate Token</code> button:</p>
 <p><img alt="Copy Token" src="../copy-token.png" /></p>
@@ -543,6 +479,8 @@
   Experiments and executions will be published to organization 'MyName'
   ChaosIQ Cloud details saved at ~/.chaostoolkit/settings.yaml
 </code></pre>
+
+<p>Your Chaos toolkit will now publish executions to ChaosIQ.</p>
                 
                   
                 
@@ -564,7 +502,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../install-ctk/" title="Install Chaos Toolkit" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../prerequisites/" title="Prerequisites" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -573,7 +511,7 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Install Chaos Toolkit
+                Prerequisites
               </span>
             </div>
           </a>
