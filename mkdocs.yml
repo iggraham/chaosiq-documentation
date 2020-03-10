@@ -11,6 +11,11 @@ theme:
     code: "IBM Plex Mono"
 extra_css:
   - css/styles.css
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: False
+      linenums: False
 nav:
 - Welcome: index.md
 - The Reliability Workflow: reliability-workflow/reliability-workflow.md

@@ -37,8 +37,9 @@ $ source  ~/.venvs/chaostk/bin/activate
   (chaostk) $
 ```
 
-  The [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) is a great tool
-  that simplifies working with Python virtual environments.
+!!! tip
+    You may want to use [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) to make this process much nicer.
+
 
 #### Install the Chaos Toolkit CLI using pip
 
