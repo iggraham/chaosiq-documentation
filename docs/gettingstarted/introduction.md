@@ -5,7 +5,8 @@ The workflow in ChaosIQ is organized around [Objectives](objectives) and [Verifi
 We will go through the steps required to get your first Verification running and published into ChaosIQ:
 
 1. [Prerequisites](../prerequisites).
-1. [Sign-in to ChaosIQ](../signin).
+1. [Login to ChaosIQ](../login-chaosiq).
+1. [Sign-in Chaos Toolkit to ChaosIQ](../signin).
 1. [Create your first Objective](../first-objective).
 1. [Create your first Verification](../first-verification).
 1. [Run your first Verification](../run-first-verification).
