@@ -6,6 +6,7 @@ We will go through the prerequisite steps so you are ready to get your first Ver
 
 1. [Install the Chaos Toolkit](#creating-a-new-chaos-toolkit-cli-installation-using-pip).
 1. [Add the ChaosIQ Plugin](#add-the-chaosiq-plugin-to-your-chaos-toolkit).
+1. [Access to ChaosIQ](#access-to-chaosiq).
 
 **If you’ve already got a working installation of the Chaos Toolkit CLI then you can skip directly to [Add the ChaosIQ Plugin](#add-the-chaosiq-plugin-to-your-chaos-toolkit)**
 
@@ -68,5 +69,17 @@ The chaosiq-cloud plugin is a Python package and can be found in the Python Pack
 ```bash
 (chaostk) $ pip install chaosiq-cloud
 ```
+## Access to ChaosIQ
 
-*That’s it!* You’ve got a working installation of the Chaos Toolkit CLI and the chaosiq-cloud plugin installed. The next step is to set up your Chaos Toolkit CLI to use your ChaosIQ account.
+The next thing you will need is access to ChaosIQ. You will need access to [https://console.chaosiq.io](https://console.chaosiq.io). This link should take you to the login page:
+
+![Login Page][loginpage]
+
+### Authentication
+
+Currently ChaosIQ supports two authentication providers Github and Google, so you will need either a Google account or a Github account, that you can use. This is really only required for the authentication step, after you login you can change the email address you wish to use and create your organization as required.
+
+*That’s it!* You’ve got a working installation of the Chaos Toolkit CLI and the chaosiq-cloud plugin installed.  You have access to ChaosIQ and hopefully have a Github or Google account that you can authenticate with.
+The next step is [Login to ChaosIQ](./login-chaosiq.md).
+
+[loginpage]: ./images/login-page.png

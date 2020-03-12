@@ -22,7 +22,8 @@ nav:
 - Getting Started:
     - Introduction: gettingstarted/introduction.md
     - Prerequisites: gettingstarted/prerequisites.md
-    - Sign-in to ChaosIQ: gettingstarted/signin.md
+    - Login to ChaosIQ: gettingstarted/login-chaosiq.md
+    - Sign-in Chaos Toolkit to ChaosIQ: gettingstarted/signin.md
     - Create your first Objective: gettingstarted/first-objective.md
     - Create your first Verification: gettingstarted/first-verification.md
     - Run your first Verification: gettingstarted/run-first-verification.md
