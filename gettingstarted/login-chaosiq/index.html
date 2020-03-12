@@ -40,7 +40,7 @@
     
     
       
-        <title>Run your first Verification - ChaosIQ Documentation</title>
+        <title>Login to ChaosIQ - ChaosIQ Documentation</title>
       
     
     
@@ -103,7 +103,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Run your first Verification
+                Login to ChaosIQ
               
             </span>
           
@@ -239,11 +239,18 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../login-chaosiq/" title="Login to ChaosIQ" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+    <a href="./" title="Login to ChaosIQ" class="md-nav__link md-nav__link--active">
       Login to ChaosIQ
     </a>
+    
   </li>
 
         
@@ -287,18 +294,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-    <a href="./" title="Run your first Verification" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../run-first-verification/" title="Run your first Verification" class="md-nav__link">
       Run your first Verification
     </a>
-    
   </li>
 
         
@@ -476,15 +476,24 @@
               
                 
                 
-                  <h1>Run your first Verification</h1>
+                  <h1>Login to ChaosIQ</h1>
                 
-                <p><img alt="Verification Run" src="../verification-run.png" /></p>
-<p>ChaosIQ will display the Run Verification page showing the Chaos Verify command with a URL selecting you Verification. To run the Verification select the <em>Copy</em> button, which will capture the command in your clipboard.  Open the terminal window where you set-up your Chaos Toolkit and paste in the Chaos Verify command and select enter to run it. The command should run the Verification and publish the results to ChaosIQ. If you go to the Verifications page and select your Verification, you should be able to see the current state of the
-Verification.</p>
-<p><img alt="Verification Running" src="../verification-running.png" /></p>
-<p>The Insights page will give you a view of your Verifications that have completed. This will give you an indication of the timeline of the Verification and a view of the events that occurred when the Verification was running. It is from the insights page that you should be able to learn the impact of your Verification and determine what actions are required. To view, the results select the Insights menu option.</p>
-<p><img alt="Verification Insights" src="../verification-insights.png" /></p>
-<p>That's your first Verification created, run and published to ChaosIQ and the results are now made available on the Insights page. Next steps are to add Conditions to your Verification to see what, if any, impact this might have on your Objective.</p>
+                <p>When you open <a href="https://console.chaosiq.io">https://console.chaosiq.io</a> in your browser you will be presented with the ChaosIQ the login page:</p>
+<p><img alt="Login Page" src="../images/login-page.png" /></p>
+<p>When you select your preferred authentication provider you will be prompted for the required authentication details. Once you have authenticated you will be presented with the ChaosIQ Welcome page:</p>
+<p><img alt="Welcome Page" src="../images/welcome-page.png" /></p>
+<p>You can enter your preferred email address at this point, this can be different from the email address provided by the authentication provider. You are also asked to accept ChaosIQ terms of Service and give ChaosIQ permission to store your data.
+Once you have logged in you will be taken to the ChaosIQ start page:</p>
+<p><img alt="Start Page" src="../images/start-page.png" /></p>
+<p>You have a number of choices from here, including links to articles, links to the ChaosIQ documentation and a useful video on Verification workflow. Normally at this point users create an Organization and teams to start using the ChaosIQ tools. When you select Create an Organization You will then be asked to choose a plan, ChaosIQ are currently only offering the Early Access Plan (more plans will follow):</p>
+<p><img alt="Choose Plan" src="../images/choose-plan.png" /></p>
+<p>You can opt to skip this stage for now, but it will take you back to the start page. If you select subscribe now you will be prompted for an Organization name:</p>
+<p><img alt="Organization Name" src="../images/organization-name.png" /></p>
+<p>Enter an organization name, the organization is unique, it can't be one that has been used before within ChaosIQ. You will then be asked to create a team. Teams are where your Objectives are defined and where Chaos Experiments are run. It can represent a real-life team, or a specific project or system</p>
+<p><img alt="Team Name" src="../images/create-team-name.png" /></p>
+<p>Once you have created the team name you will be taken to your teams start page where you can go on to create your first objective.</p>
+<p><img alt="Team Name" src="../images/team-start-page.png" /></p>
+<p><em>That’s it!</em> You have authenticated  and logged in to ChaosIQ, you have created your Organization and a Team you are all set to start using the ChaosIQ tools.</p>
                 
                   
                 
@@ -506,7 +515,7 @@ Verification.</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../first-verification/" title="Create your first Verification" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../prerequisites/" title="Prerequisites" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -515,19 +524,19 @@ Verification.</p>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Create your first Verification
+                Prerequisites
               </span>
             </div>
           </a>
         
         
-          <a href="../../organizations-and-teams/organizations-and-teams-intro/" title="Introduction" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../signin/" title="Sign-in Chaos Toolkit to ChaosIQ" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Introduction
+                Sign-in Chaos Toolkit to ChaosIQ
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
