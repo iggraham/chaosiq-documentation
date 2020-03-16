@@ -1,6 +1,6 @@
 ![Create Verification][CreateVerification]
 
-[CreateVerification]: ./create-verification.png
+[CreateVerification]: ./images/create-verification.png
 
 First you need to indicate what objective this verification is being built for. An objective maye be pre-selected, or you will need to select the objective from the drop-down list. Then you will enter a frequency in seconds and over what duration your verification will be run. The values chosen on these fields impact your usage footprint in ChaosIQ so a high usage warning may be displayed.
 

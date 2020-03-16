@@ -22,8 +22,14 @@ $ pip install -r requirements.txt
 
 Finally you can start a local server to view the docs:
 
-```
+```bash
 $ mkdocs serve
+```
+
+To run mkdocs on an alternative port:
+
+```bash
+mkdocs serve --dev-addr 127.0.0.1:9000
 ```
 
 If you wish to contribute to this documentation, please submit a PR with your

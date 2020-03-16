@@ -2,7 +2,7 @@ Ensure you have a team selected using the drop-down at the to left of the ChaosI
 
 ![Select Team][selectTeam]
 
-[selectTeam]: ./select-team.png
+[selectTeam]: ./images/select-team.png
 
 Then navigate to the [Objectives page](https://console.chaosiq.io/ChaosIQ/Staging/objectives) and click the `Create a New Objective` button.
 
@@ -14,7 +14,7 @@ You now specify the most important part of your objective which is a target perc
 
 ![Create Objective][createObjective]
 
-[createObjective]: ./create-objective.png
+[createObjective]: ./images/create-objective.png
 
 The next step is to identify how you would measure your Objective. This is something in your that you can measure that is an indicator that the system is meeting its objectives. In ChaosIQ, select the drop-down menu for the type of measurement.
 
@@ -29,6 +29,6 @@ The tolerance can be either HTTP Status Code Check where you will specify an exp
 
 ![Objective with Measure][ObjectiveMeasure]
 
-[ObjectiveMeasure]: ./objective-with-measure.png
+[ObjectiveMeasure]: ./images/objective-with-measure.png
 
 Having identified how you are going to measure your objective select the *Create Objective and Verify It* button to complete your objective and it will take you to the Create a Verification form.
