@@ -35,6 +35,11 @@ nav:
     - Publishing Verifications to a Team: organizations-and-teams/publishing-to-a-team.md
     - Switching Teams: organizations-and-teams/switching-teams.md
     - Switching Organizations: organizations-and-teams/switching-organizations.md
+- Chaos Run and Chaos Verify:
+    - Introduction: run-and-verify/run-and-verify-intro.md
+    - Experiment Format: run-and-verify/experiment-format.md
+    - Verification Format: run-and-verify/verification-format.md
+    - Run and Verify: run-and-verify/run-and-verify.md
 - Deployment Options: deployment-options/deployment-options.md
 - Frequently Asked Questions (FAQ):
     - How do I check I have the latest version of the ChaosIQ plugin: faq/plugin.md
