@@ -85,7 +85,7 @@ will give output similar to:
 [2020-03-18 10:21:26 INFO] Validating the experiment's syntax
 [2020-03-18 10:21:26 INFO] Experiment looks valid
 [2020-03-18 10:21:26 INFO] Running experiment: Checks the hypothesis that a URL responds with a 200 status
-[2020-03-18 10:21:28 INFO] Execution available at http://console.chaosiq.dev/ChaosIQ/chaos-ebn/executions/6f38b6c5-cf44-4dec-a7b5-7ec6ee03352a
+[2020-03-18 10:21:28 INFO] Execution available at http://console.chaosiq.dev/ChaosIQ/Staging/executions/6f38b6c5-cf44-4dec-a7b5-7ec6ee03352a
 [2020-03-18 10:21:29 INFO] Steady state hypothesis: Application is normal
 [2020-03-18 10:21:31 INFO] Probe: application-must-respond-normally
 [2020-03-18 10:21:35 INFO] Steady state hypothesis is met!
@@ -104,7 +104,9 @@ If that same experiment is stored locally in a file e.g. ```url-responds.json```
 ENDPOINT_URL=https://httpstat.us/200?sleep=2000; \
 chaos run url-responds.json
 ```
-The output will be the same as shown above, the only difference is when the ```chaos run``` is provided with a URL it downloads the experiment from the HTTP resource first. The execution then performs the following steps:
+The output will be the same as shown above, the only difference is when the
+```chaos run``` is provided with a URL it downloads the experiment from the
+HTTP resource first. The execution then performs the following steps:
 
 * Validate the experiment and if it is syntactically valid it will run it.
 * The steady state hypothesis is checked.
@@ -112,22 +114,28 @@ The output will be the same as shown above, the only difference is when the ```c
 * The steady state hypothesis is then checked again.
 * Finally if there are any rollbacks then these are executed.
 
-When connected to ChaosIQ the result of running an Experiment can be seen on the Executions pages:
+When connected to ChaosIQ the result of running an Experiment can be seen on
+the Executions pages:
 
 ![Executions Summary][ExecutionsSummary]
 
-If you select the details button for your Experiment can view the detail of the execution:
+If you select the details button for your Experiment can view the detail of the
+ execution:
 
 ![Executions Details][ExecutionsDetail]
 
-If you expand the Experiment Steady-State Hypothesis you can see the Steady-State used:
+If you expand the Experiment Steady-State Hypothesis you can see the
+Steady-State used:
 
 ![Experiment Journal][ExperimentJournal]
 
 
 ## Chaos Verify
 
-The ```chaos verify``` command is added to the Chaos Toolkit CLI by the ChaosIQ plugin. A ```chaos verify``` command will execute the verification provided the SOURCE parameter. A verification can be specified either a local file or a  HTTP resource:
+The ```chaos verify``` command is added to the Chaos Toolkit CLI by the
+ChaosIQ plugin. A ```chaos verify``` command will execute the verification
+provided the SOURCE parameter. A verification can be specified either a local
+file or a  HTTP resource:
 
 ```bash
 chaos verify https://console.chaosiq.dev/assets/verifications/13e11c55-8fd9-4737-b43f-b62ea763cc6f.json

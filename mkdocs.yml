@@ -40,6 +40,12 @@ nav:
     - Experiment Format: run-and-verify/experiment-format.md
     - Verification Format: run-and-verify/verification-format.md
     - Run and Verify: run-and-verify/run-and-verify.md
+- How to Run with ChaosIQ with Docker:
+    - Introduction: chaosiq-on-docker/chaosiq-on-docker-intro.md
+    - Run an Experiment with Docker: chaosiq-on-docker/run-experiment.md
+    - Run an Experiment with Docker and ChaosIQ: chaosiq-on-docker/run-with-chaosiq.md
+    - Run a Verification with Docker: chaosiq-on-docker/run-verification.md
+    - Build a Custom Docker image to use ChaosIQ: chaosiq-on-docker/build-a-custom-docker-image.md
 - Deployment Options: deployment-options/deployment-options.md
 - Frequently Asked Questions (FAQ):
     - How do I check I have the latest version of the ChaosIQ plugin: faq/plugin.md
