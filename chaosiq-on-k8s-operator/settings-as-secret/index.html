@@ -40,7 +40,7 @@
     
     
       
-        <title>Sign-in Chaos Toolkit to ChaosIQ - ChaosIQ Documentation</title>
+        <title>Configure ChaosIQ settings as secret - ChaosIQ Documentation</title>
       
     
     
@@ -103,7 +103,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Sign-in Chaos Toolkit to ChaosIQ
+                Configure ChaosIQ settings as secret
               
             </span>
           
@@ -194,12 +194,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
     
     <label class="md-nav__link" for="nav-3">
       Getting Started
@@ -217,7 +215,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../introduction/" title="Introduction" class="md-nav__link">
+    <a href="../../gettingstarted/introduction/" title="Introduction" class="md-nav__link">
       Introduction
     </a>
   </li>
@@ -229,7 +227,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../prerequisites/" title="Prerequisites" class="md-nav__link">
+    <a href="../../gettingstarted/prerequisites/" title="Prerequisites" class="md-nav__link">
       Prerequisites
     </a>
   </li>
@@ -241,7 +239,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../login-chaosiq/" title="Login to ChaosIQ" class="md-nav__link">
+    <a href="../../gettingstarted/login-chaosiq/" title="Login to ChaosIQ" class="md-nav__link">
       Login to ChaosIQ
     </a>
   </li>
@@ -251,18 +249,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-    <a href="./" title="Sign-in Chaos Toolkit to ChaosIQ" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../gettingstarted/signin/" title="Sign-in Chaos Toolkit to ChaosIQ" class="md-nav__link">
       Sign-in Chaos Toolkit to ChaosIQ
     </a>
-    
   </li>
 
         
@@ -272,7 +263,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../first-objective/" title="Create your first Objective" class="md-nav__link">
+    <a href="../../gettingstarted/first-objective/" title="Create your first Objective" class="md-nav__link">
       Create your first Objective
     </a>
   </li>
@@ -284,7 +275,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../first-verification/" title="Create your first Verification" class="md-nav__link">
+    <a href="../../gettingstarted/first-verification/" title="Create your first Verification" class="md-nav__link">
       Create your first Verification
     </a>
   </li>
@@ -296,7 +287,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../run-first-verification/" title="Run your first Verification" class="md-nav__link">
+    <a href="../../gettingstarted/run-first-verification/" title="Run your first Verification" class="md-nav__link">
       Run your first Verification
     </a>
   </li>
@@ -575,10 +566,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" checked>
     
     <label class="md-nav__link" for="nav-7">
       How to run with ChaosIQ on Kubernetes operator
@@ -596,7 +589,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../chaosiq-on-k8s-operator/intro/" title="Introduction" class="md-nav__link">
+    <a href="../intro/" title="Introduction" class="md-nav__link">
       Introduction
     </a>
   </li>
@@ -606,11 +599,18 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../chaosiq-on-k8s-operator/settings-as-secret/" title="Configure ChaosIQ settings as secret" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+    <a href="./" title="Configure ChaosIQ settings as secret" class="md-nav__link md-nav__link--active">
       Configure ChaosIQ settings as secret
     </a>
+    
   </li>
 
         
@@ -620,7 +620,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../chaosiq-on-k8s-operator/create-experiment-operator/" title="Create a ChaosExperiment on Kubernetes" class="md-nav__link">
+    <a href="../create-experiment-operator/" title="Create a ChaosExperiment on Kubernetes" class="md-nav__link">
       Create a ChaosExperiment on Kubernetes
     </a>
   </li>
@@ -692,24 +692,32 @@
               
                 
                 
-                  <h1>Sign-in Chaos Toolkit to ChaosIQ</h1>
+                  <h1>Configure ChaosIQ settings as secret</h1>
                 
-                <p>So that your Chaos Toolkit installation can communicate with ChaosIQ, you need to set up your credentials using the <code>chaos signin</code> command.</p>
-<p>First generate a token from the  ChaosIQ <a href="https://console.chaosiq.io/tokens">Tokens tab</a>.</p>
-<p><img alt="Tokens Page" src="../tokens-page.png" /></p>
-<p>Enter a token name and click the <code>Generate Token</code> button:</p>
-<p><img alt="Copy Token" src="../copy-token.png" /></p>
-<p>Click the <code>Copy To Clipboard</code> button and the token will be copied to your clipboard, ready to be added to your Chaos Toolkit CLI by signing into ChaosIQ.</p>
-<p>Use the <code>chaos signin</code> command to connect to ChaosIQ and add your token. When the <code>chaos signin</code> command prompts for the token, paste the token from your clipboard:</p>
-<div class="codehilite"><pre><span></span><code>(chaostk) $ chaos signin
-  ChaosIQ Cloud url [https://console.chaosiq.io]:
-  ChaosIQ Cloud token:
-  Experiments and executions will be published to organization &#39;MyName&#39;
-  ChaosIQ Cloud details saved at ~/.chaostoolkit/settings.yaml
+                <p>This section explains how to configure and use this operator for running
+ChaosIQ verifications and experiments.</p>
+<p>To be able to fetch assets from ChaosIQ, as well as pushing back results,
+for both experiments and verifications, you'll need to setup a settings file
+with a valid token and selected targeted organization &amp; team.</p>
+<p>Please refer to these documentation links, to <a href="/gettingstarted/signin">signin to ChaosIQ</a> with a token and select your default <a href="/organizations-and-teams/switching-organizations">organization</a> and <a href="/organizations-and-teams/switching-teams">team</a>.</p>
+<p>By default, the settings file can be located at:
+<code>~/.chaostoolkit/settings.yaml</code></p>
+<p>Then, you'll need to load these settings into Kubernetes, as a secret:</p>
+<div class="codehilite"><pre><span></span><code>$ kubectl -n chaostoolkit-run <span class="se">\</span>
+    create secret generic chaostoolkit-settings <span class="se">\</span>
+    --from-file<span class="o">=</span>~/.chaostoolkit/settings.yaml
 </code></pre></div>
 
 
-<p>Your Chaos toolkit will now publish executions to ChaosIQ.</p>
+<p>Please refer to the official <a href="https://docs.chaostoolkit.org/deployment/k8s/operator/#pass-chaos-toolkit-settings-as-a-kubernetes-secret">documentation</a> for more
+information on how to pass settings to the experiment with the operator.</p>
+<p>You might have multiple organizations and teams, even possibly tokens, to use.
+In that case, it's best to uniquely name your secret, as example:
+<code>chaostoolkit-settings-&lt;my-org&gt;-&lt;my-team&gt;</code>
+This will allow you to use multiple verifications and experiments from various
+teams within the same namespace in your Kubernetes cluster. However, you'll
+need to specify the settings secret name to the Chaos Experiment, as
+described in the <a href="https://docs.chaostoolkit.org/deployment/k8s/operator/#pass-chaos-toolkit-settings-as-a-kubernetes-secret">documentation</a>.</p>
                 
                   
                 
@@ -731,7 +739,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../login-chaosiq/" title="Login to ChaosIQ" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../intro/" title="Introduction" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -740,19 +748,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Login to ChaosIQ
+                Introduction
               </span>
             </div>
           </a>
         
         
-          <a href="../first-objective/" title="Create your first Objective" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../create-experiment-operator/" title="Create a ChaosExperiment on Kubernetes" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Create your first Objective
+                Create a ChaosExperiment on Kubernetes
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
