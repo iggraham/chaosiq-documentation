@@ -46,10 +46,16 @@ nav:
     - Run an Experiment with Docker and ChaosIQ: chaosiq-on-docker/run-with-chaosiq.md
     - Run a Verification with Docker: chaosiq-on-docker/run-verification.md
     - Build a Custom Docker image to use ChaosIQ: chaosiq-on-docker/build-a-custom-docker-image.md
+- How to Run with ChaosIQ with Travis CI:
+    - Introduction: chaosiq-on-travis/chaosiq-on-travis-intro.md
+    - Prerequisites: chaosiq-on-travis/prerequisites.md
+    - Run a Chaos Experiment: chaosiq-on-travis/run-experiment.md
+    - Run an Experiment with ChaosIQ: chaosiq-on-travis/run-with-chaosiq.md
 - How to run with ChaosIQ on Kubernetes operator:
     - Introduction: chaosiq-on-k8s-operator/intro.md
     - Configure ChaosIQ settings as secret: chaosiq-on-k8s-operator/settings-as-secret.md
     - Create a ChaosExperiment on Kubernetes: chaosiq-on-k8s-operator/create-experiment-operator.md
+
 - Deployment Options: deployment-options/deployment-options.md
 - Frequently Asked Questions (FAQ):
     - How do I check I have the latest version of the ChaosIQ plugin: faq/plugin.md
