@@ -1,10 +1,10 @@
 Running ChaosIQ Verifications and Experiments from inside a Kubernetes cluster
 is possible thanks to the open source Chaos Toolkit [Kubernetes operator]
 [K8sCrdRepo].
-This allows to run remotely instead of from the standard command line on local
+This allows you to run remotely instead of from the standard command line on local
 machines.
 
-First, you'll need to deploy the operator in your cluster. To do so,
+First, you will need to deploy the operator in your cluster. To do so,
 please refer to the official open source Chaos Toolkit [documentation]
 [DeployTheOperator].
 

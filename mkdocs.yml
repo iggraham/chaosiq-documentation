@@ -54,7 +54,7 @@ nav:
 - How to run with ChaosIQ on Kubernetes operator:
     - Introduction: chaosiq-on-k8s-operator/intro.md
     - Configure ChaosIQ settings as secret: chaosiq-on-k8s-operator/settings-as-secret.md
-    - Create a ChaosExperiment on Kubernetes: chaosiq-on-k8s-operator/create-experiment-operator.md
+    - Create a Chaos Experiment on Kubernetes: chaosiq-on-k8s-operator/create-experiment-operator.md
 
 - Deployment Options: deployment-options/deployment-options.md
 - Frequently Asked Questions (FAQ):
