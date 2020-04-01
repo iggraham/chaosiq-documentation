@@ -3,7 +3,7 @@ We are going to use the ChaosIQ ```chaosiq/chaostoolkit``` Docker image from Doc
 
 To run with the ChaosIQ ```chaosiq/chaostoolkit``` Docker image see:
 
-* [Run an Experiment with Docker](/chaosiq-on-docker/run-experiment/)
-* [Run an Experiment with Docker and ChaosIQ](/chaosiq-on-docker/run-with-chaosiq/)
-* [Run an Experiment with Docker and ChaosIQ](/chaosiq-on-docker/run-verification/)
+* [Run an Experiment with Docker](../run-experiment/)
+* [Run an Experiment with Docker and ChaosIQ](../run-with-chaosiq/)
+* [Run an Experiment with Docker and ChaosIQ](../run-verification/)
 

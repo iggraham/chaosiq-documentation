@@ -4,10 +4,9 @@ We are going to run the the Chaos Toolkit as part of a Travis build using [Pytho
 
 To run Chaos Toolkit with and without ChaosIQ see the links below:
 
-1. [Prerequisites](/chaosiq-on-travis/prerequisites).
-1. [Run an Experiment with Travis CI](/chaosiq-on-travis/run-experiment/).
-1. [Run an Experiment with Travis CI and ChaosIQ](/chaosiq-on-travis/.run-with-chaosiq/).
-1. [Run an Experiment with Travis CI and ChaosIQ](/chaosiq-on-travis/run-verification/).
+1. [Prerequisites](../prerequisites/).
+1. [Run an Experiment with Travis CI](../run-experiment/).
+1. [Run an Experiment with Travis CI and ChaosIQ](../run-with-chaosiq/).
 
 [TravisCICoreConcepts]: https://docs.travis-ci.com/user/for-beginners/
 [TravisCIPython]: https://docs.travis-ci.com/user/languages/python/

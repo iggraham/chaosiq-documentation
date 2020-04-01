@@ -9,7 +9,7 @@ Please refer to these documentation links, to [signin to ChaosIQ]
 [SignInChaosIQ] with a token and select your default [organization]
 [SelectDefaultOrg] and [team][SelectDefaultTeam].
 
-## Add the ChaosIQ extension
+## Add the ChaosIQ Extension
 
 You will need to add the ChaosIQ extension to the Github repository we setup in the previous section. Open the ```requirements.txt``` file and add the line:
 
