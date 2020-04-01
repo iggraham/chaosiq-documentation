@@ -1,4 +1,4 @@
-This section covers running a Chaos Toolkit experiment on Travis. If you start with a local working directory, you can push this to a Github repository at a later date to get things running on Travis.
+This section covers running a Chaos Toolkit experiment on Travis. If you start with a local working directory, you can push this to a Github repository at a later step to get things running on Travis.
 
 ## Create an Experiment File
 
@@ -68,9 +68,9 @@ script:
 
 ```
 
-Add the above code to a .travis.yaml file.
+Add the above code to the ```.travis.yaml``` file.
 
-The Travis config file uses Python 3.7 and pip to install dependencies from a ```requirements.txt``` file. The following is the initial ```requirements.txt``` we can use:
+The Travis config file uses Python 3.7 and pip to install dependencies from a ```requirements.txt``` file. The following is the initial ```requirements.txt``` you can can use:
 
 ```
 chaostoolkit
@@ -118,9 +118,11 @@ This tells you the ```experiment.json``` is valid and runs locally and the Stead
 You will need a Github Repository to run with Travis. Create a repository for your build, you will need to allow Travis to access this repository to run the build. Once you have created your repository link it to your locally working directory using commands something like:
 
 ```
-git remote add origin git@github.com:gtfisher/ctk-travis.git
+git remote add origin git@github.com:gtfisher/travis-test.git
 
 ```
+In the above command *gtfisher* is the Github account and *travis-test* is the Github repository.
+
 ## Configure Travis for your Git Repository
 
 You will need to ensure your repository is configured to run with Travis, the

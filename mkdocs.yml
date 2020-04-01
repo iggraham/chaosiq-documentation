@@ -18,7 +18,6 @@ markdown_extensions:
       linenums: False
 nav:
 - Welcome: index.md
-- The Reliability Workflow: reliability-workflow/reliability-workflow.md
 - Getting Started:
     - Introduction: gettingstarted/introduction.md
     - Prerequisites: gettingstarted/prerequisites.md
@@ -27,35 +26,42 @@ nav:
     - Create your first Objective: gettingstarted/first-objective.md
     - Create your first Verification: gettingstarted/first-verification.md
     - Run your first Verification: gettingstarted/run-first-verification.md
-- Organizations and Teams:
-    - Introduction: organizations-and-teams/organizations-and-teams-intro.md
-    - Creating an Organization: organizations-and-teams/create-organization.md
-    - Inviting people to your Organization: organizations-and-teams/invite-to-an-organization.md
-    - Creating a Team: organizations-and-teams/creating-a-team.md
-    - Publishing Verifications to a Team: organizations-and-teams/publishing-to-a-team.md
-    - Switching Teams: organizations-and-teams/switching-teams.md
-    - Switching Organizations: organizations-and-teams/switching-organizations.md
-- Chaos Run and Chaos Verify:
-    - Introduction: run-and-verify/run-and-verify-intro.md
-    - Experiment Format: run-and-verify/experiment-format.md
-    - Verification Format: run-and-verify/verification-format.md
-    - Run and Verify: run-and-verify/run-and-verify.md
-- How to Run with ChaosIQ with Docker:
-    - Introduction: chaosiq-on-docker/chaosiq-on-docker-intro.md
-    - Run an Experiment with Docker: chaosiq-on-docker/run-experiment.md
-    - Run an Experiment with Docker and ChaosIQ: chaosiq-on-docker/run-with-chaosiq.md
-    - Run a Verification with Docker: chaosiq-on-docker/run-verification.md
-    - Build a Custom Docker image to use ChaosIQ: chaosiq-on-docker/build-a-custom-docker-image.md
-- How to Run with ChaosIQ with Travis CI:
-    - Introduction: chaosiq-on-travis/chaosiq-on-travis-intro.md
-    - Prerequisites: chaosiq-on-travis/prerequisites.md
-    - Run a Chaos Experiment: chaosiq-on-travis/run-experiment.md
-    - Run an Experiment with ChaosIQ: chaosiq-on-travis/run-with-chaosiq.md
-- How to run with ChaosIQ on Kubernetes operator:
-    - Introduction: chaosiq-on-k8s-operator/intro.md
-    - Configure ChaosIQ settings as secret: chaosiq-on-k8s-operator/settings-as-secret.md
-    - Create a Chaos Experiment on Kubernetes: chaosiq-on-k8s-operator/create-experiment-operator.md
-
+- Timeline:    timeline.md
+- Verifications and Experiments:
+      - Introduction: verifications-and-experiments/introduction.md
+      - Experiment Format: verifications-and-experiments/experiment-format.md
+      - Verification Format: verifications-and-experiments/verification-format.md
+      - Execution Profile: verifications-and-experiments/execution-profile.md
+      - Experiment and Verification Execution: verifications-and-experiments/run-and-verify.md
+- Objectives: objectives.md
+- Running a Verification:
+    - Running using the CLI: running-the-cli/cli.md
+    - Running using Docker:
+      - Introduction to Docker: running-on-docker/chaosiq-on-docker-intro.md
+      - Run an Experiment with Docker: running-on-docker/run-experiment.md
+      - Run an Experiment with Docker and ChaosIQ: running-on-docker/run-with-chaosiq.md
+      - Run a Verification with Docker: running-on-docker/run-verification.md
+      - Build a Custom Docker image to use ChaosIQ: running-on-docker/build-a-custom-docker-image.md
+    - Running using Kubernetes:
+      - Introduction to Kubernetes: running-on-kubernetes/intro.md
+      - Configure ChaosIQ settings as secret: running-on-kubernetes/settings-as-secret.md
+      - Create a Chaos Experiment on Kubernetes: running-on-kubernetes/create-experiment-operator.md
+    - Running using CI/CD:
+        - Running Continuos Verifications: running-on-ci-cd.md
+        - Running using Travis:
+          - Introduction to Travis: running-on-travis/chaosiq-on-travis-intro.md
+          - Prerequisites: running-on-travis/prerequisites.md
+          - Run a Chaos Experiment: running-on-travis/run-experiment.md
+          - Run an Experiment with ChaosIQ: running-on-travis/run-with-chaosiq.md
+- Teams and Organizations:
+        - Introduction: organizations-and-teams/organizations-and-teams-intro.md
+        - Creating an Organization: organizations-and-teams/create-organization.md
+        - Inviting people to your Organization: organizations-and-teams/invite-to-an-organization.md
+        - Creating a Team: organizations-and-teams/creating-a-team.md
+        - Publishing Verifications to a Team: organizations-and-teams/publishing-to-a-team.md
+        - Switching Teams: organizations-and-teams/switching-teams.md
+        - Switching Organizations: organizations-and-teams/switching-organizations.md
+- Tokens: tokens/generate-token.md
 - Deployment Options: deployment-options/deployment-options.md
 - Frequently Asked Questions (FAQ):
     - How do I check I have the latest version of the ChaosIQ plugin: faq/plugin.md

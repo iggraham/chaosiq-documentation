@@ -55,7 +55,7 @@ As mentioned above the settings file contains sensitive information and should n
 
 ### Install the Travis CLI
 
-In order to encrypt a file and to use that encrypted file on your Travis build you will need to install the Travis CLI, see the [Travis CLI installation][TravisCliInstall] instructions. Once installed you will need to use the Travis CLI to login  in to your Travis account with the following command:
+To encrypt a file and to use that encrypted file on your Travis build you will need to install the Travis CLI, see the [Travis CLI installation][TravisCliInstall] instructions. Once installed you will need to use the Travis CLI to login  in to your Travis account with the following command:
 
 ```
 travis login --com
@@ -142,8 +142,6 @@ In this section we have:
 * Pushed the changes to the Github repository to trigger a build
 * The build has executed and published the execution on the Executions page on ChaosIQ
 
-!!! success
-    We have not completed running Chaos Toolkit experiment as part of a Travis build and published the result to ChaosIQ!
 [ChaosToolkit]: https://chaostoolkit.org/
 [ChaosIQ]: https://console.chaosiq.io/login
 [SignInChaosIQ]: /gettingstarted/signin

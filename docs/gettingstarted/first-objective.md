@@ -10,7 +10,7 @@ Then navigate to the [Objectives page](https://console.chaosiq.io/ChaosIQ/Stagin
 
  You can optionally add a tag to your Objective. Tags are used to filter for your objective when you are managing many Objectives.
 
-You now specify the most important part of your objective which is a target percentage availability over a specified period, an example could be 99.5% available, over a period of 7 days. The target availability is less than 100% so this leaves a margin for error, this can be considered the [Error Budget]().
+You now specify the most important part of your objective which is a target percentage availability over a specified period, an example could be 99.5% available, over a period of 7 days. The target availability is less than 100% so this leaves a margin for error, this can be considered the Error Budget.
 
 ![Create Objective][createObjective]
 
