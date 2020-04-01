@@ -1,0 +1,1218 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="ChaosIQ Documentation">
+      
+      
+      
+        <meta name="author" content="ChaosIQ Limited">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../static/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-4.6.3">
+    
+    
+      
+        <title>Experiment and Verification Execution - ChaosIQ Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.adb8469c.css">
+      
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.86422ebf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,400i,700%7CIBM+Plex+Mono&display=fallback">
+        <style>body,input{font-family:"IBM Plex Sans","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"IBM Plex Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../css/styles.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#chaos-run" tabindex="0" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="ChaosIQ Documentation" aria-label="ChaosIQ Documentation" class="md-header-nav__button md-logo">
+          
+            <img alt="logo" src="../../static/images/chaosiq-mark.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              ChaosIQ Documentation
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Experiment and Verification Execution
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="ChaosIQ Documentation" class="md-nav__button md-logo">
+      
+        <img alt="logo" src="../../static/images/chaosiq-mark.png" width="48" height="48">
+      
+    </a>
+    ChaosIQ Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Welcome" class="md-nav__link">
+      Welcome
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Getting Started
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Getting Started
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gettingstarted/introduction/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gettingstarted/prerequisites/" title="Prerequisites" class="md-nav__link">
+      Prerequisites
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gettingstarted/login-chaosiq/" title="Login to ChaosIQ" class="md-nav__link">
+      Login to ChaosIQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gettingstarted/signin/" title="Sign-in Chaos Toolkit to ChaosIQ" class="md-nav__link">
+      Sign-in Chaos Toolkit to ChaosIQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gettingstarted/first-objective/" title="Create your first Objective" class="md-nav__link">
+      Create your first Objective
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gettingstarted/first-verification/" title="Create your first Verification" class="md-nav__link">
+      Create your first Verification
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gettingstarted/run-first-verification/" title="Run your first Verification" class="md-nav__link">
+      Run your first Verification
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../timeline/" title="Timeline" class="md-nav__link">
+      Timeline
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Verifications and Experiments
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Verifications and Experiments
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../introduction/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../experiment-format/" title="Experiment Format" class="md-nav__link">
+      Experiment Format
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../verification-format/" title="Verification Format" class="md-nav__link">
+      Verification Format
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../execution-profile/" title="Execution Profile" class="md-nav__link">
+      Execution Profile
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Experiment and Verification Execution
+      </label>
+    
+    <a href="./" title="Experiment and Verification Execution" class="md-nav__link md-nav__link--active">
+      Experiment and Verification Execution
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#chaos-run" class="md-nav__link">
+    Chaos Run
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chaos-verify" class="md-nav__link">
+    Chaos Verify
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../objectives/" title="Objectives" class="md-nav__link">
+      Objectives
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Running a Verification
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Running a Verification
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../running-the-cli/cli/" title="Running using the CLI" class="md-nav__link">
+      Running using the CLI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-2" type="checkbox" id="nav-6-2">
+    
+    <label class="md-nav__link" for="nav-6-2">
+      Running using Docker
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-2">
+        Running using Docker
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../running-on-docker/chaosiq-on-docker-intro/" title="Introduction to Docker" class="md-nav__link">
+      Introduction to Docker
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../running-on-docker/run-experiment/" title="Run an Experiment with Docker" class="md-nav__link">
+      Run an Experiment with Docker
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../running-on-docker/run-with-chaosiq/" title="Run an Experiment with Docker and ChaosIQ" class="md-nav__link">
+      Run an Experiment with Docker and ChaosIQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../running-on-docker/run-verification/" title="Run a Verification with Docker" class="md-nav__link">
+      Run a Verification with Docker
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../running-on-docker/build-a-custom-docker-image/" title="Build a Custom Docker image to use ChaosIQ" class="md-nav__link">
+      Build a Custom Docker image to use ChaosIQ
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-3" type="checkbox" id="nav-6-3">
+    
+    <label class="md-nav__link" for="nav-6-3">
+      Running using Kubernetes
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-3">
+        Running using Kubernetes
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../running-on-kubernetes/intro/" title="Introduction to Kubernetes" class="md-nav__link">
+      Introduction to Kubernetes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../running-on-kubernetes/settings-as-secret/" title="Configure ChaosIQ settings as secret" class="md-nav__link">
+      Configure ChaosIQ settings as secret
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../running-on-kubernetes/create-experiment-operator/" title="Create a Chaos Experiment on Kubernetes" class="md-nav__link">
+      Create a Chaos Experiment on Kubernetes
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-4" type="checkbox" id="nav-6-4">
+    
+    <label class="md-nav__link" for="nav-6-4">
+      Running using CI/CD
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-4">
+        Running using CI/CD
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../running-on-ci-cd/" title="Running Continuos Verifications" class="md-nav__link">
+      Running Continuos Verifications
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-4-2" type="checkbox" id="nav-6-4-2">
+    
+    <label class="md-nav__link" for="nav-6-4-2">
+      Running using Travis
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-6-4-2">
+        Running using Travis
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../running-on-travis/chaosiq-on-travis-intro/" title="Introduction to Travis" class="md-nav__link">
+      Introduction to Travis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../running-on-travis/prerequisites/" title="Prerequisites" class="md-nav__link">
+      Prerequisites
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../running-on-travis/run-experiment/" title="Run a Chaos Experiment" class="md-nav__link">
+      Run a Chaos Experiment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../running-on-travis/run-with-chaosiq/" title="Run an Experiment with ChaosIQ" class="md-nav__link">
+      Run an Experiment with ChaosIQ
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Teams and Organizations
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Teams and Organizations
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../organizations-and-teams/organizations-and-teams-intro/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../organizations-and-teams/create-organization/" title="Creating an Organization" class="md-nav__link">
+      Creating an Organization
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../organizations-and-teams/invite-to-an-organization/" title="Inviting people to your Organization" class="md-nav__link">
+      Inviting people to your Organization
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../organizations-and-teams/creating-a-team/" title="Creating a Team" class="md-nav__link">
+      Creating a Team
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../organizations-and-teams/publishing-to-a-team/" title="Publishing Verifications to a Team" class="md-nav__link">
+      Publishing Verifications to a Team
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../organizations-and-teams/switching-teams/" title="Switching Teams" class="md-nav__link">
+      Switching Teams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../organizations-and-teams/switching-organizations/" title="Switching Organizations" class="md-nav__link">
+      Switching Organizations
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../tokens/generate-token/" title="Tokens" class="md-nav__link">
+      Tokens
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../deployment-options/deployment-options/" title="Deployment Options" class="md-nav__link">
+      Deployment Options
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10">
+    
+    <label class="md-nav__link" for="nav-10">
+      Frequently Asked Questions (FAQ)
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-10">
+        Frequently Asked Questions (FAQ)
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../faq/plugin/" title="How do I check I have the latest version of the ChaosIQ plugin" class="md-nav__link">
+      How do I check I have the latest version of the ChaosIQ plugin
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#chaos-run" class="md-nav__link">
+    Chaos Run
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chaos-verify" class="md-nav__link">
+    Chaos Verify
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Experiment and Verification Execution</h1>
+                
+                <p>The Chaos Toolkit supports a number of commands and options, if you have <a href="/gettingstarted/prerequisites/#creating-a-new-chaos-toolkit-cli-installation-using-pip">Chaos Toolkit</a> installed, execute the <code>chaos</code> command, you will see output like:</p>
+<div class="codehilite"><pre><span></span><code>Usage: chaos <span class="o">[</span>OPTIONS<span class="o">]</span> COMMAND <span class="o">[</span>ARGS<span class="o">]</span>...
+
+Options:
+  --version                   Show the version and exit.
+  --verbose                   Display debug level traces.
+  --no-version-check          Do not search <span class="k">for</span> an updated version of the
+                              chaostoolkit.
+
+  --change-dir TEXT           Change directory before running experiment.
+  --no-log-file               Disable logging to file entirely.
+  --log-file TEXT             File path where to write the command<span class="err">&#39;</span>s log.
+                              <span class="o">[</span>default: chaostoolkit.log<span class="o">]</span>
+
+  --log-format <span class="o">[</span>string<span class="p">|</span>json<span class="o">]</span>  Console logging format: string, json.
+  --settings TEXT             Path to the settings file.  <span class="o">[</span>default:
+                              /Users/grant/.chaostoolkit/settings.yaml<span class="o">]</span>
+
+  --help                      Show this message and exit.
+
+Commands:
+  discover  Discover capabilities and experiments.
+  info      Display information about the Chaos Toolkit environment.
+  init      Initialize a new experiment from discovered capabilities.
+  run       Run the experiment loaded from SOURCE, either a <span class="nb">local</span> file or a...
+  validate  Validate the experiment at PATH.
+</code></pre></div>
+
+
+<p>This shows the core Chaos Toolkit support for the <code>chaos run</code> command.</p>
+<p>To add the ability to run Verifications and to publish the results to ChaosIQ you need to install the <a href="/gettingstarted/prerequisites/#add-the-chaosiq-plugin-to-your-chaos-toolkit">ChaosIQ Plugin</a>. Once the plugin is installed run the <code>chaos</code> command again and you will see:</p>
+<div class="codehilite"><pre><span></span><code>Usage: chaos <span class="o">[</span>OPTIONS<span class="o">]</span> COMMAND <span class="o">[</span>ARGS<span class="o">]</span>...
+
+Options:
+  --version                   Show the version and exit.
+  --verbose                   Display debug level traces.
+  --no-version-check          Do not search <span class="k">for</span> an updated version of the
+                              chaostoolkit.
+
+  --change-dir TEXT           Change directory before running experiment.
+  --no-log-file               Disable logging to file entirely.
+  --log-file TEXT             File path where to write the command<span class="s1">&#39;s log.</span>
+<span class="s1">                              [default: chaostoolkit.log]</span>
+
+<span class="s1">  --log-format [string|json]  Console logging format: string, json.</span>
+<span class="s1">  --settings TEXT             Path to the settings file.  [default:</span>
+<span class="s1">                              /Users/grant/.chaostoolkit/settings.yaml]</span>
+
+<span class="s1">  --help                      Show this message and exit.</span>
+
+<span class="s1">Commands:</span>
+<span class="s1">  disable   Disable a ChaosIQ feature</span>
+<span class="s1">  discover  Discover capabilities and experiments.</span>
+<span class="s1">  enable    Enable a ChaosIQ feature</span>
+<span class="s1">  info      Display information about the Chaos Toolkit environment.</span>
+<span class="s1">  init      Initialize a new experiment from discovered capabilities.</span>
+<span class="s1">  org       Set ChaosIQ organisation</span>
+<span class="s1">  publish   Publish your experiment&#39;</span>s journal to ChaosIQ
+  run       Run the experiment loaded from SOURCE, either a <span class="nb">local</span> file or a...
+  signin    Sign-in with your ChaosIQ credentials
+  team      Set ChaosIQ team
+  validate  Validate the experiment at PATH.
+  verify    Run the verification loaded from SOURCE, either a <span class="nb">local</span> file or...
+</code></pre></div>
+
+
+<p>The ChaosIQ plugin adds some additional commands to the core Chaos Toolkit CLI, this includes commands to <code>signin</code> to ChaosIQ and the command to <code>verify</code>.</p>
+<p>You now have availalbe <code>chaos run</code> to run an Experiment and <code>chaos verify</code> to run a Verification. The execution is different for both.</p>
+<h2 id="chaos-run">Chaos Run</h2>
+<p>the <code>chaos run</code> command will execute the experiment given as the SOURCE parameter, an experiment can be specified either a local file or a  HTTP resource:</p>
+<div class="codehilite"><pre><span></span><code><span class="nv">ENDPOINT_URL</span><span class="o">=</span>https://httpstat.us/200?sleep<span class="o">=</span><span class="m">2000</span><span class="p">;</span> <span class="se">\</span>
+chaos run https://raw.githubusercontent.com/open-chaos/experiment-catalog/master/local/url-responds/url-responds.json
+</code></pre></div>
+
+
+<p>will give output similar to:</p>
+<div class="codehilite"><pre><span></span><code><span class="o">[</span><span class="m">2020</span>-03-18 <span class="m">10</span>:21:26 INFO<span class="o">]</span> Validating the experiment<span class="s1">&#39;s syntax</span>
+<span class="s1">[2020-03-18 10:21:26 INFO] Experiment looks valid</span>
+<span class="s1">[2020-03-18 10:21:26 INFO] Running experiment: Checks the hypothesis that a URL responds with a 200 status</span>
+<span class="s1">[2020-03-18 10:21:28 INFO] Execution available at http://console.chaosiq.dev/ChaosIQ/Staging/executions/6f38b6c5-cf44-4dec-a7b5-7ec6ee03352a</span>
+<span class="s1">[2020-03-18 10:21:29 INFO] Steady state hypothesis: Application is normal</span>
+<span class="s1">[2020-03-18 10:21:31 INFO] Probe: application-must-respond-normally</span>
+<span class="s1">[2020-03-18 10:21:35 INFO] Steady state hypothesis is met!</span>
+<span class="s1">[2020-03-18 10:21:38 INFO] Action: dummy step</span>
+<span class="s1">[2020-03-18 10:21:40 INFO] Steady state hypothesis: Application is normal</span>
+<span class="s1">[2020-03-18 10:21:43 INFO] Probe: application-must-respond-normally</span>
+<span class="s1">[2020-03-18 10:21:46 INFO] Steady state hypothesis is met!</span>
+<span class="s1">[2020-03-18 10:21:47 INFO] Let&#39;</span>s rollback...
+<span class="o">[</span><span class="m">2020</span>-03-18 <span class="m">10</span>:21:49 INFO<span class="o">]</span> No declared rollbacks, let<span class="err">&#39;</span>s move on.
+<span class="o">[</span><span class="m">2020</span>-03-18 <span class="m">10</span>:21:50 INFO<span class="o">]</span> Experiment ended with status: completed
+</code></pre></div>
+
+
+<p>If that same experiment is stored locally in a file e.g. <code>url-responds.json</code>, it can be executed as:</p>
+<div class="codehilite"><pre><span></span><code><span class="nv">ENDPOINT_URL</span><span class="o">=</span>https://httpstat.us/200?sleep<span class="o">=</span><span class="m">2000</span><span class="p">;</span> <span class="se">\</span>
+chaos run url-responds.json
+</code></pre></div>
+
+
+<p>The output will be the same as shown above, the only difference is when the
+<code>chaos run</code> is provided with a URL it downloads the experiment from the
+HTTP resource first. The execution then performs the following steps:</p>
+<ul>
+<li>Validate the experiment and if it is syntactically valid it will run it.</li>
+<li>The steady state hypothesis is checked.</li>
+<li>Execute any methods in the experiment (the experiment can include an array of methods).</li>
+<li>The steady state hypothesis is then checked again.</li>
+<li>Finally if there are any rollbacks then these are executed.</li>
+</ul>
+<p>When connected to ChaosIQ the result of running an Experiment can be seen on
+the Executions pages:</p>
+<p><img alt="Executions Summary" src="../images/executions-summary.png" /></p>
+<p>If you select the details button for your Experiment can view the detail of the
+ execution:</p>
+<p><img alt="Executions Details" src="../images/executions-detail.png" /></p>
+<p>If you expand the Experiment Steady-State Hypothesis you can see the
+Steady-State used:</p>
+<p><img alt="Experiment Journal" src="../images/experiment-journal.png" /></p>
+<h2 id="chaos-verify">Chaos Verify</h2>
+<p>The <code>chaos verify</code> command is added to the Chaos Toolkit CLI by the
+ChaosIQ plugin. A <code>chaos verify</code> command will execute the verification
+provided the SOURCE parameter. A verification can be specified either a local
+file or a  HTTP resource:</p>
+<div class="codehilite"><pre><span></span><code>chaos verify https://console.chaosiq.dev/assets/verifications/13e11c55-8fd9-4737-b43f-b62ea763cc6f.json
+</code></pre></div>
+
+
+<p>If that same verification is downloaded and stored locally in a file e.g. <code>verify-staging-dummy-action.json</code>, it can be executed as:</p>
+<div class="codehilite"><pre><span></span><code>chaos verify verify-staging-dummy-action.json
+</code></pre></div>
+
+
+<p>The output is similar for both commands:</p>
+<div class="codehilite"><pre><span></span><code><span class="o">[</span><span class="m">2020</span>-03-18 <span class="m">12</span>:40:30 INFO<span class="o">]</span> Validating the experiment<span class="s1">&#39;s syntax</span>
+<span class="s1">[2020-03-18 12:40:30 INFO] Experiment looks valid</span>
+<span class="s1">[2020-03-18 12:40:30 INFO] Verification looks valid</span>
+<span class="s1">[2020-03-18 12:40:31 INFO] Execution available at http://console.chaosiq.dev/ChaosIQ/Staging/executions/68158971-8ed1-45fd-815c-a92233c402f9</span>
+<span class="s1">[2020-03-18 12:40:33 INFO] Started run &#39;</span>8a99aadf-f9b9-4053-8a3f-ad4cb76ed55c<span class="s1">&#39; of verification &#39;</span>Staging Console should respond within <span class="m">500</span> milliseconds with a dummy condition applied.<span class="s1">&#39;</span>
+<span class="s1">[2020-03-18 12:40:34 INFO] Starting verification warm-up period of None seconds</span>
+<span class="s1">[2020-03-18 12:40:34 INFO] Finished verification warm-up</span>
+<span class="s1">[2020-03-18 12:40:34 INFO] Triggering verification conditions</span>
+<span class="s1">[2020-03-18 12:40:35 INFO] Starting verification measurement every 3 seconds</span>
+<span class="s1">[2020-03-18 12:40:35 INFO] Running verification measurement 1</span>
+<span class="s1">[2020-03-18 12:40:35 INFO] Steady state hypothesis: Staging Console should respond within 500 milliseconds</span>
+<span class="s1">[2020-03-18 12:40:35 INFO] Probe: http-response-time</span>
+<span class="s1">[2020-03-18 12:40:35 INFO] Steady state hypothesis is met!</span>
+<span class="s1">[2020-03-18 12:40:37 INFO] Action: dummy step</span>
+<span class="s1">[2020-03-18 12:40:39 INFO] Running verification measurement 2</span>
+<span class="s1">[2020-03-18 12:40:39 INFO] Steady state hypothesis: Staging Console should respond within 500 milliseconds</span>
+<span class="s1">[2020-03-18 12:40:39 INFO] Probe: http-response-time</span>
+<span class="s1">[2020-03-18 12:40:39 INFO] Steady state hypothesis is met!</span>
+<span class="s1">[2020-03-18 12:40:40 INFO] Finished triggering verification conditions</span>
+<span class="s1">[2020-03-18 12:40:40 INFO] Starting verification conditions for 10 seconds</span>
+<span class="s1">[2020-03-18 12:40:43 INFO] Running verification measurement 3</span>
+<span class="s1">[2020-03-18 12:40:43 INFO] Steady state hypothesis: Staging Console should respond within 500 milliseconds</span>
+<span class="s1">[2020-03-18 12:40:43 INFO] Probe: http-response-time</span>
+<span class="s1">[2020-03-18 12:40:44 INFO] Steady state hypothesis is met!</span>
+<span class="s1">[2020-03-18 12:40:48 INFO] Running verification measurement 4</span>
+<span class="s1">[2020-03-18 12:40:48 INFO] Steady state hypothesis: Staging Console should respond within 500 milliseconds</span>
+<span class="s1">[2020-03-18 12:40:48 INFO] Probe: http-response-time</span>
+<span class="s1">[2020-03-18 12:40:48 INFO] Steady state hypothesis is met!</span>
+<span class="s1">[2020-03-18 12:40:50 INFO] Finished verification conditions duration</span>
+<span class="s1">[2020-03-18 12:40:50 INFO] Starting verification cool-down period of None seconds</span>
+<span class="s1">[2020-03-18 12:40:52 INFO] Finished verification cool-down period</span>
+<span class="s1">[2020-03-18 12:40:53 INFO] Stopping verification measurements. 4 measurements taken</span>
+<span class="s1">[2020-03-18 12:40:53 INFO] Triggering any verification rollbacks</span>
+<span class="s1">[2020-03-18 12:40:53 INFO] Let&#39;</span>s rollback...
+<span class="o">[</span><span class="m">2020</span>-03-18 <span class="m">12</span>:40:54 INFO<span class="o">]</span> No declared rollbacks, let<span class="err">&#39;</span>s move on.
+<span class="o">[</span><span class="m">2020</span>-03-18 <span class="m">12</span>:40:55 INFO<span class="o">]</span> Finished triggering any verification rollbacks
+<span class="o">[</span><span class="m">2020</span>-03-18 <span class="m">12</span>:40:57 INFO<span class="o">]</span> Finished running verification: Staging Console should respond within <span class="m">500</span> milliseconds with a dummy condition applied.
+</code></pre></div>
+
+
+<p>The only difference is when the <code>chaos verify</code> is provided with an HTTP resource, it downloads the verification first. The execution then performs the following steps:</p>
+<ul>
+<li>Validate the verification/experiment is syntactically correct and if it is valid it will run it.</li>
+<li>The steady state hypothesis is checked.</li>
+<li>Execute any methods in the verification.</li>
+<li>The steady state hypothesis is then checked again.</li>
+<li>Then a process is started that will execute the Steady State Hypothesis at the <code>frequency-of-measurement</code> defined in the Verification, for the <code>duration-of-conditions</code> (in the case above it takes a measurement every 3 seconds for a period of 10 seconds).</li>
+<li>Finally if there are any rollbacks then these are executed.</li>
+</ul>
+<p>When connected to ChaosIQ the result of running a Verification can be seen on the insights page:</p>
+<p><img alt="Insights Summary" src="../images/insights-summary.png" /></p>
+<p>If you select the details button for your Verification can view the detail of the Verification execution:</p>
+<p><img alt="Insights Detail" src="../images/insights-detail.png" /></p>
+<p>The details view includes information about the Objective, the Measurement used and the Verification. It shows the Verification Run Timeline that includes a timeline chart of samples.</p>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../execution-profile/" title="Execution Profile" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Execution Profile
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../objectives/" title="Objectives" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Objectives
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            &copy; 2020 ChaosIQ Limited
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.c33a9706.js"></script>
+      
+      <script>app.initialize({version:"1.1",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>
