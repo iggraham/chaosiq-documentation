@@ -16,7 +16,7 @@ Then, you'll need to load these settings into Kubernetes, as a secret:
 ```bash
 $ kubectl -n chaostoolkit-run \
     create secret generic chaostoolkit-settings \
-    --from-file=~/.chaostoolkit/settings.yaml
+    --from-file=settings.yaml=~/.chaostoolkit/settings.yaml
 ```
 Please refer to the official [documentation][PassSettingsAsSecret] for more
 information on how to pass settings to the experiment with the operator.
