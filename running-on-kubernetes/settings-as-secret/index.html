@@ -887,7 +887,7 @@ with a valid token and selected targeted organization &amp; team.</p>
 <p>Then, you'll need to load these settings into Kubernetes, as a secret:</p>
 <div class="codehilite"><pre><span></span><code>$ kubectl -n chaostoolkit-run <span class="se">\</span>
     create secret generic chaostoolkit-settings <span class="se">\</span>
-    --from-file<span class="o">=</span>~/.chaostoolkit/settings.yaml
+    --from-file<span class="o">=</span>settings.yaml<span class="o">=</span>~/.chaostoolkit/settings.yaml
 </code></pre></div>
 
 
