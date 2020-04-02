@@ -47,7 +47,7 @@ nav:
       - Configure ChaosIQ settings as secret: running-on-kubernetes/settings-as-secret.md
       - Create a Chaos Experiment on Kubernetes: running-on-kubernetes/create-experiment-operator.md
     - Running using CI/CD:
-        - Running Continuos Verifications: running-on-ci-cd.md
+        - Running Continuous Verifications: running-on-ci-cd.md
         - Running using Travis:
           - Introduction to Travis: running-on-travis/chaosiq-on-travis-intro.md
           - Prerequisites: running-on-travis/prerequisites.md
