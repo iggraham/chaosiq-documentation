@@ -1,6 +1,6 @@
-site_name: ChaosIQ Documentation
-site_author: ChaosIQ Limited
-site_description: ChaosIQ Documentation
+site_name: Welcome to your Reliability Toolkit
+site_author: ChaosIQ
+site_description: Reliability Toolkit
 copyright: '&copy; 2020 ChaosIQ Limited'
 theme:
   name: material
@@ -17,7 +17,7 @@ markdown_extensions:
       guess_lang: False
       linenums: False
 nav:
-- Welcome: index.md
+- Introducing the Reliability Toolkit: index.md
 - Getting Started:
     - Introduction: gettingstarted/introduction.md
     - Prerequisites: gettingstarted/prerequisites.md
