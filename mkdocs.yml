@@ -27,7 +27,7 @@ nav:
     - Create your first Objective: gettingstarted/first-objective.md
     - Create your first Verification: gettingstarted/first-verification.md
     - Run your first Verification: gettingstarted/run-first-verification.md
-- Timeline:    timeline/timeline.md
+- Reliability Timelines: timeline/timeline.md
 - Verifications and Experiments:
       - Introduction: verifications-and-experiments/introduction.md
       - Experiment Format: verifications-and-experiments/experiment-format.md

@@ -1,12 +1,12 @@
-The Reliability Timeline is one of the key features of the Reliability Toolkit. The work with the Reliability Toolkit is centred on Timelines. The timeline view can give you a quick overview of the reliability of your system. We believe the Timeline can be the first port of call for the overall status of your system.  From the Summary Timeline, you can drill down into more detail as required if you need to investigate events that have impacted the reliability your systems.
+Your work as you practice reliability with the Reliability Toolkit focuses on *timelines*, collectively referred to as *Reliability Timelines*. A timeline view gives you a quick overview of the reliability of your system.
 
-## Summary Timeline
+## Reliability Summary Timeline
 
-The Summary Timeline will give you a historical view of events that have occurred in your system. This includes the experiments and verifications that have been run with the  Chaos Toolkit when it's signed in to your Reliability Toolkit account:
+The top level reliability timeline is the *Summary Timeline*. From the Summary Timeline you can drill down into more detail as you investigate events that have impacted the reliability of your systems and decide what work to prioritise.
+
+The Summary Timeline gives you a historical view of events that have occurred in your system. This includes the experiments and verifications that have been run with the  Chaos Toolkit when it's signed in to your Reliability Toolkit account:
 
 ![Timeline Summary][TimelineSummary]
-
-
 
 The Summary Timeline shows an Icon for the event, followed by a Name for the event. If applicable further information is included under the name, that provides some more details on the event. For example, if the event is a verification it will show when it was run, for how long and by who. The name is also a hyperlink to a detail view for the event, if it is a verification it will take you to the insight view for the verification:
 
