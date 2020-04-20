@@ -16,6 +16,24 @@ markdown_extensions:
   - codehilite:
       guess_lang: False
       linenums: False
+  - def_list
+  - footnotes
+  - meta
+  - smarty
+  - toc:
+      permalink: True
+  - pymdownx.betterem:
+      smart_enable: "all"
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: True
+  - pymdownx.tilde
 nav:
 - Introducing the Reliability Toolkit: index.md
 - Why Reliability is a Practice: why-practice/why-practice-reliability.md
@@ -27,6 +45,8 @@ nav:
     - Create your first Objective: gettingstarted/first-objective.md
     - Create your first Verification: gettingstarted/first-verification.md
     - Run your first Verification: gettingstarted/run-first-verification.md
+- Tutorials:
+    - Verifications on AWS with Systems Manager: ssm-on-aws/ssm-on-aws.md
 - Reliability Timelines: timeline/timeline.md
 - Verifications and Experiments:
       - Introduction: verifications-and-experiments/introduction.md
