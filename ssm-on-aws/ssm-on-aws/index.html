@@ -19,7 +19,7 @@
     
     
       
-        <title>Verification Format - Welcome to your Reliability Toolkit</title>
+        <title>Verifications on AWS with Systems Manager - Welcome to your Reliability Toolkit</title>
       
     
     
@@ -54,7 +54,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#example-verification" class="md-skip">
+        <a href="#aws-ec2-set-up" class="md-skip">
           Skip to content
         </a>
       
@@ -81,7 +81,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Verification Format
+              Verifications on AWS with Systems Manager
             
           </span>
         </div>
@@ -290,10 +290,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
     
     <label class="md-nav__link" for="nav-4">
       Tutorials
@@ -315,11 +317,84 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../ssm-on-aws/ssm-on-aws/" title="Verifications on AWS with Systems Manager" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Verifications on AWS with Systems Manager
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,9H17V7H3V9M3,13H17V11H3V13M3,17H17V15H3V17M19,17H21V15H19V17M19,7V9H21V7H19M19,13H21V11H19V13Z" /></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Verifications on AWS with Systems Manager" class="md-nav__link md-nav__link--active">
       Verifications on AWS with Systems Manager
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#aws-ec2-set-up" class="md-nav__link">
+    AWS EC2 Set up
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aws-systems-manager-experiment" class="md-nav__link">
+    AWS Systems Manager Experiment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#experiment-import" class="md-nav__link">
+    Experiment Import
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-the-verification" class="md-nav__link">
+    Run the Verification
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary-timeline" class="md-nav__link">
+    Summary Timeline
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verification-insights" class="md-nav__link">
+    Verification Insights
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -344,12 +419,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
     
     <label class="md-nav__link" for="nav-6">
       Verifications and Experiments
@@ -373,7 +446,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../introduction/" title="Introduction" class="md-nav__link">
+    <a href="../../verifications-and-experiments/introduction/" title="Introduction" class="md-nav__link">
       Introduction
     </a>
   </li>
@@ -385,7 +458,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../experiment-format/" title="Experiment Format" class="md-nav__link">
+    <a href="../../verifications-and-experiments/experiment-format/" title="Experiment Format" class="md-nav__link">
       Experiment Format
     </a>
   </li>
@@ -395,49 +468,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Verification Format
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,9H17V7H3V9M3,13H17V11H3V13M3,17H17V15H3V17M19,17H21V15H19V17M19,7V9H21V7H19M19,13H21V11H19V13Z" /></svg>
-        </span>
-      </label>
-    
-    <a href="./" title="Verification Format" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../verifications-and-experiments/verification-format/" title="Verification Format" class="md-nav__link">
       Verification Format
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
-      </span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#example-verification" class="md-nav__link">
-    Example Verification
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -447,7 +482,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../execution-profile/" title="Execution Profile" class="md-nav__link">
+    <a href="../../verifications-and-experiments/execution-profile/" title="Execution Profile" class="md-nav__link">
       Execution Profile
     </a>
   </li>
@@ -459,7 +494,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../run-and-verify/" title="Experiment and Verification Execution" class="md-nav__link">
+    <a href="../../verifications-and-experiments/run-and-verify/" title="Experiment and Verification Execution" class="md-nav__link">
       Experiment and Verification Execution
     </a>
   </li>
@@ -1004,8 +1039,43 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#example-verification" class="md-nav__link">
-    Example Verification
+  <a href="#aws-ec2-set-up" class="md-nav__link">
+    AWS EC2 Set up
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aws-systems-manager-experiment" class="md-nav__link">
+    AWS Systems Manager Experiment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#experiment-import" class="md-nav__link">
+    Experiment Import
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-the-verification" class="md-nav__link">
+    Run the Verification
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary-timeline" class="md-nav__link">
+    Summary Timeline
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verification-insights" class="md-nav__link">
+    Verification Insights
   </a>
   
 </li>
@@ -1026,54 +1096,100 @@
                   
                 
                 
-                  <h1>Verification Format</h1>
+                  <h1>Verifications on AWS with Systems Manager</h1>
                 
-                <p>The Verification format is an experiment format that has the addition of an <a href="https://docs.chaostoolkit.org/reference/api/experiment/#extensions">Extension</a>. An example Verification extension is:</p>
-<div class="highlight"><pre><span></span><code><span class="s2">&quot;extensions&quot;</span><span class="err">:</span> <span class="p">[</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;chaosiq&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;objective_id&quot;</span><span class="p">:</span> <span class="s2">&quot;48637aae-11a0-4f16-816f-55faef12d5d0&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;verification&quot;</span><span class="p">:</span> <span class="p">{</span>
-            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;2adfd65c-ba38-4482-a73e-eb26252e4ebc&quot;</span><span class="p">,</span>
-            <span class="nt">&quot;duration-of-conditions&quot;</span><span class="p">:</span> <span class="mi">180</span><span class="p">,</span>
-            <span class="nt">&quot;frequency-of-measurement&quot;</span><span class="p">:</span> <span class="mi">2</span>
-        <span class="p">},</span>
-        <span class="nt">&quot;experiment_id&quot;</span><span class="p">:</span> <span class="s2">&quot;338e26f6-6ff6-42f8-a181-e7df9cbf385e&quot;</span>
-    <span class="p">}</span>
-    <span class="p">]</span>
+                <p>Following on from <a href="https://medium.com/@adhorn">Adrian Hornsby&rsquo;s</a> excellent blog post on <a href="https://medium.com/@adhorn/injecting-chaos-to-amazon-ec2-using-amazon-system-manager-ca95ee7878f5">Injecting Chaos to Amazon EC2 using AWS System Manager</a> this tutorial will show you how to run a Chaos Toolkit experiment and a Reliability Toolkit verification, using AWS Systems Manager (SSM).</p>
+<p>Adrian&rsquo;s blog post explains what AWS Systems Manager (SSM) is and how to set it up.</p>
+<h2 id="aws-ec2-set-up">AWS EC2 Set up<a class="headerlink" href="#aws-ec2-set-up" title="Permanent link">&para;</a></h2>
+<p>You will need access to an AWS EC2 instance where you can apply some disruption. If you already have an EC2 instance, it&rsquo;s worth confirming if it already has an SSM agent included.
+SSM Agent is installed, by default, on Amazon Linux base AMIs dated 2017.09 and later.
+SSM Agent is also installed, by default, on Amazon Linux 2, Ubuntu Server 16.04, and Ubuntu Server 18.04 LTS AMIs.
+If it is not included you can install the <a href="https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-install-ssm-agent.html">SSM agent manually</a></p>
+<p>If you don&rsquo;t have a suitable EC2 instance available you can create an EC2 Web server with Flask using this <a href="https://www.codementor.io/@jqn/deploy-a-flask-app-on-aws-ec2-13hp1ilqy2">useful guide</a>. This should get you to the point where you have an EC2 instance up and running that would respond to an HTTP request.</p>
+<p>A quick first experiment is used to confirm we are all set up to run a Chaos Toolkit experiment against the EC2 endpoint. Ensure you have followed the steps to install the <a href="gettingstarted/prerequisites/#creating-a-new-chaos-toolkit-cli-installation-using-pip">Chaos Toolkit CLI</a>.</p>
+<div class="highlight"><pre><span></span><code>{
+    &quot;version&quot;: &quot;1.0.0&quot;,
+    &quot;title&quot;: &quot;Running a http request on an  EC2&quot;,
+    &quot;description&quot;: &quot;Run a http health check on EC2 instance running apache/Flask&quot;,
+    &quot;tags&quot;: [&quot;health&quot;],
+    &quot;configuration&quot;: {
+        &quot;endpoint_url&quot;: {
+            &quot;type&quot;: &quot;env&quot;,
+            &quot;key&quot;: &quot;ENDPOINT_URL&quot;
+        }
+    },
+    &quot;contributions&quot;: {
+        &quot;reliability&quot;: &quot;medium&quot;,
+        &quot;security&quot;: &quot;none&quot;,
+        &quot;scalability&quot;: &quot;medium&quot;
+    },
+    &quot;steady-state-hypothesis&quot;: {
+        &quot;title&quot;: &quot;Application responds&quot;,
+        &quot;probes&quot;: [
+            {
+                &quot;type&quot;: &quot;probe&quot;,
+                &quot;name&quot;: &quot;application-must-respond-normally&quot;,
+                &quot;tolerance&quot;: 200,
+                &quot;provider&quot;: {
+                    &quot;type&quot;: &quot;http&quot;,
+                    &quot;timeout&quot;: 200,
+                    &quot;verify_tls&quot;: false,
+                    &quot;url&quot;: &quot;${endpoint_url}&quot;
+                }
+            }
+        ]
+    },
+    &quot;method&quot;: [
+        {
+            &quot;type&quot;: &quot;action&quot;,
+            &quot;name&quot;: &quot;dummy step&quot;,
+            &quot;provider&quot;: {
+                &quot;type&quot;: &quot;process&quot;,
+                &quot;path&quot;: &quot;echo&quot;,
+                &quot;arguments&quot;: &quot;The URL pinged is: ${endpoint_url}&quot;
+            }
+        }
+
+    ],
+    &quot;rollbacks&quot;: []
+}
 </code></pre></div>
 
-<p>The extension identifies chaosiq as the vendor and then provides a number of custom properties:</p>
-<ul>
-<li>objective_id: this provides a mapping from the Verification to an Objective.</li>
-<li>verification: the Verification includes a number of further properties:<ul>
-<li>id: a unique identifier for the Verification.</li>
-<li>duration-of-condition: this is the deration for the Verification in seconds, this is how long the Verification will run for</li>
-<li>frequency-of-measurement: this is the frequency that the measurement will be taken at, in this case the measure will be taken at every 2 seconds. The steady state hypothesis in the experiment is used as the measurement.</li>
-</ul>
-</li>
-</ul>
-<h2 id="example-verification">Example Verification<a class="headerlink" href="#example-verification" title="Permanent link">&para;</a></h2>
+<p>Run the experiment with</p>
+<div class="highlight"><pre><span></span><code><span class="nv">ENDPOINT_URL</span><span class="o">=</span>http://ec2-52-18-8-61.eu-west-1.compute.amazonaws.com <span class="se">\</span>
+chaos run experiment.json
+</code></pre></div>
+
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Add the <code>--verbose</code> option for more detailed logging</p>
+</div>
+<h2 id="aws-systems-manager-experiment">AWS Systems Manager Experiment<a class="headerlink" href="#aws-systems-manager-experiment" title="Permanent link">&para;</a></h2>
+<p>With that set up, you can try running an experiment that will apply some CPU stress using one of Adrian&rsquo;s <a href="https://raw.githubusercontent.com/adhorn/chaos-ssm-documents/master/cpu-stress.yml">SSM documents</a>. If you have worked through Adrian&rsquo;s  Injecting Chaos to Amazon EC2 article you should be all set to go. Use the following experiment:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-    <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Staging console can survive real pod death&quot;</span><span class="p">,</span>
-    <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;N/A&quot;</span><span class="p">,</span>
-    <span class="nt">&quot;configuration&quot;</span><span class="p">:</span> <span class="p">{},</span>
-    <span class="nt">&quot;secrets&quot;</span><span class="p">:</span> <span class="p">{},</span>
-    <span class="nt">&quot;extensions&quot;</span><span class="p">:</span> <span class="p">[</span>
-        <span class="p">{</span>
-            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;chaosiq&quot;</span><span class="p">,</span>
-            <span class="nt">&quot;objective_id&quot;</span><span class="p">:</span> <span class="s2">&quot;48637aae-11a0-4f16-816f-55faef12d5d0&quot;</span><span class="p">,</span>
-            <span class="nt">&quot;verification&quot;</span><span class="p">:</span> <span class="p">{</span>
-                <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;2adfd65c-ba38-4482-a73e-eb26252e4ebc&quot;</span><span class="p">,</span>
-                <span class="nt">&quot;duration-of-conditions&quot;</span><span class="p">:</span> <span class="mi">180</span><span class="p">,</span>
-                <span class="nt">&quot;frequency-of-measurement&quot;</span><span class="p">:</span> <span class="mi">2</span>
-            <span class="p">},</span>
-            <span class="nt">&quot;experiment_id&quot;</span><span class="p">:</span> <span class="s2">&quot;338e26f6-6ff6-42f8-a181-e7df9cbf385e&quot;</span>
+    <span class="nt">&quot;version&quot;</span><span class="p">:</span> <span class="s2">&quot;1.0.0&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Expect a quick response from a request to a server on an  EC2 instance when the processor is loaded&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Expect a quick response when the processor is loaded with an AWS SSM command.&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;tags&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;response-time&quot;</span><span class="p">],</span>
+    <span class="nt">&quot;configuration&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;endpoint_url&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;env&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;key&quot;</span><span class="p">:</span> <span class="s2">&quot;ENDPOINT_URL&quot;</span>
+        <span class="p">},</span>
+        <span class="nt">&quot;instance_id&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;env&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;key&quot;</span><span class="p">:</span> <span class="s2">&quot;INSTANCE_ID&quot;</span>
         <span class="p">}</span>
-    <span class="p">],</span>
-    <span class="nt">&quot;tags&quot;</span><span class="p">:</span> <span class="p">[],</span>
+
+    <span class="p">},</span>
+    <span class="nt">&quot;contributions&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;reliability&quot;</span><span class="p">:</span> <span class="s2">&quot;medium&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;security&quot;</span><span class="p">:</span> <span class="s2">&quot;none&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;scalability&quot;</span><span class="p">:</span> <span class="s2">&quot;medium&quot;</span>
+    <span class="p">},</span>
+
     <span class="nt">&quot;steady-state-hypothesis&quot;</span><span class="p">:</span> <span class="p">{</span>
-        <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Staging Console is Available&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;EC2 instance should respond within 6 seconds&quot;</span><span class="p">,</span>
         <span class="nt">&quot;probes&quot;</span><span class="p">:</span> <span class="p">[</span>
             <span class="p">{</span>
                 <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;http-response-time&quot;</span><span class="p">,</span>
@@ -1083,7 +1199,7 @@
                     <span class="nt">&quot;module&quot;</span><span class="p">:</span> <span class="s2">&quot;chaoscloud.probes.http&quot;</span><span class="p">,</span>
                     <span class="nt">&quot;func&quot;</span><span class="p">:</span> <span class="s2">&quot;time_http_call&quot;</span><span class="p">,</span>
                     <span class="nt">&quot;arguments&quot;</span><span class="p">:</span> <span class="p">{</span>
-                        <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://console.chaosiq.dev&quot;</span>
+                        <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;${endpoint_url}&quot;</span>
                     <span class="p">}</span>
                 <span class="p">},</span>
                 <span class="nt">&quot;tolerance&quot;</span><span class="p">:</span> <span class="p">{</span>
@@ -1094,7 +1210,7 @@
                         <span class="nt">&quot;module&quot;</span><span class="p">:</span> <span class="s2">&quot;chaoscloud.tolerances.http&quot;</span><span class="p">,</span>
                         <span class="nt">&quot;func&quot;</span><span class="p">:</span> <span class="s2">&quot;response_time_under&quot;</span><span class="p">,</span>
                         <span class="nt">&quot;arguments&quot;</span><span class="p">:</span> <span class="p">{</span>
-                            <span class="nt">&quot;duration&quot;</span><span class="p">:</span> <span class="mi">500</span>
+                            <span class="nt">&quot;duration&quot;</span><span class="p">:</span> <span class="mi">6000</span>
                         <span class="p">}</span>
                     <span class="p">}</span>
                 <span class="p">}</span>
@@ -1103,32 +1219,207 @@
     <span class="p">},</span>
     <span class="nt">&quot;method&quot;</span><span class="p">:</span> <span class="p">[</span>
         <span class="p">{</span>
-            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;terminate-pods&quot;</span><span class="p">,</span>
             <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;action&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;inject-cpu&quot;</span><span class="p">,</span>
             <span class="nt">&quot;provider&quot;</span><span class="p">:</span> <span class="p">{</span>
-                <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;python&quot;</span><span class="p">,</span>
-                <span class="nt">&quot;module&quot;</span><span class="p">:</span> <span class="s2">&quot;chaosk8s.pod.actions&quot;</span><span class="p">,</span>
-                <span class="nt">&quot;func&quot;</span><span class="p">:</span> <span class="s2">&quot;terminate_pods&quot;</span><span class="p">,</span>
-                <span class="nt">&quot;arguments&quot;</span><span class="p">:</span> <span class="p">{</span>
-                    <span class="nt">&quot;ns&quot;</span><span class="p">:</span> <span class="s2">&quot;chaosiq-console&quot;</span><span class="p">,</span>
-                    <span class="nt">&quot;label_selector&quot;</span><span class="p">:</span> <span class="s2">&quot;chaosiq-saas-backend-6755597d54-8npfz&quot;</span><span class="p">,</span>
-                    <span class="nt">&quot;all&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-                    <span class="nt">&quot;qty&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
-                    <span class="nt">&quot;rand&quot;</span><span class="p">:</span> <span class="kc">false</span>
-                <span class="p">}</span>
+                <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;process&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;aws&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;arguments&quot;</span><span class="p">:</span> <span class="s2">&quot;ssm send-command --document-name \&quot;cpu-stress\&quot; --document-version \&quot;1\&quot;</span>
+<span class="s2">--targets &#39;[{\&quot;Key\&quot;:\&quot;InstanceIds\&quot;,\&quot;Values\&quot;:[\&quot;${instance_id}\&quot;]}]&#39;</span>
+<span class="s2">--parameters &#39;{\&quot;duration\&quot;:[\&quot;180\&quot;],\&quot;cpu\&quot;:[\&quot;0\&quot;]}&#39; --timeout-seconds 60</span>
+<span class="s2">--max-concurrency \&quot;50\&quot; --max-errors \&quot;0\&quot; --output-s3-bucket-name \&quot;gtf-chaos-output\&quot;</span>
+<span class="s2">--cloud-watch-output-config &#39;{\&quot;CloudWatchOutputEnabled\&quot;:true}&#39;</span>
+<span class="s2">--region eu-west-1 --query &#39;Command.CommandId&#39; &gt; CommandId.info&quot;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;rollbacks&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;action&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Stop SSM run command&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;provider&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;process&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;aws&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;arguments&quot;</span><span class="p">:</span> <span class="s2">&quot;ssm cancel-command --command-id $(cat CommandId.info) &quot;</span>
+            <span class="p">},</span>
+            <span class="nt">&quot;pauses&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="nt">&quot;after&quot;</span><span class="p">:</span> <span class="mi">10</span>
             <span class="p">}</span>
         <span class="p">}</span>
     <span class="p">]</span>
 <span class="p">}</span>
 </code></pre></div>
 
-<p>In the full verification above:</p>
-<ul>
-<li>The verifications title and description are meant for humans and therefore should be as descriptive as possible to clarify the verifications rationale.</li>
-<li>Configuration and Secrets  are optional and is same as for for an <a href="https://docs.chaostoolkit.org/reference/api/experiment/#configuration">Experiment Configuration</a> and <a href="https://docs.chaostoolkit.org/reference/api/experiment/#secrets">Experiment Secrets</a>.</li>
-<li>Steady State Hypothesis - this is used in this case as a measure of your system.</li>
-<li>Method - this is used to apply some condition to your system, in this case this is to kill a kubernetes pod.</li>
-</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You will need to add your own S3bucket name.</p>
+</div>
+<p>It is worth connecting to your EC2 instance now using <a href="https://aws.amazon.com/blogs/compute/new-using-amazon-ec2-instance-connect-for-ssh-access-to-your-ec2-instances/">SSH</a> and running <code>htop</code> so you can see the impact of the SSM command on the CPU.</p>
+<p>The experiment can be run with a  command similar to the following, but you should replace the <code>ENDPOINT_URL</code> and the <code>INSTANCE_ID</code> with your own EC2 values:</p>
+<div class="highlight"><pre><span></span><code><span class="nv">ENDPOINT_URL</span><span class="o">=</span>http://ec2-52-18-8-61.eu-west-1.compute.amazonaws.com/random/4 <span class="se">\</span>
+<span class="nv">INSTANCE_ID</span><span class="o">=</span>i-086ccae1f2de9b012 <span class="se">\</span>
+chaos run verification-ec2-responds-processor-load-stage.json
+</code></pre></div>
+
+<p>Shortly after the experiment begins the <code>htop</code> session should look similar to:</p>
+<p><img alt="htop screenshot" src="../images/htop-screen.png" /></p>
+<p>At this point, some stress has been applied to the CPU and a Steady
+ State Hypothesis has run against the EC2 endpoint. An experiment only applies
+ the Steady State Hypothesis at the beginning and at the end of an experiment,
+  it would be better to run it as a verification where the Steady State
+  Hypothesis can be repeated over a period of time.</p>
+<h2 id="experiment-import">Experiment Import<a class="headerlink" href="#experiment-import" title="Permanent link">&para;</a></h2>
+<p>The Reliability Toolkit supports the import of an experiment to into
+ the toolkit to upgrade it to a Verification. Login to the <a href="https://console.chaosiq.io/login">Reliability Toolkit</a> and navigate to the <a href="https://console.chaosiq.io/ChaosIQ/Staging/verifications">Verifications page</a>. From the
+ verifications page you have an option to import an experiment, select the
+ Import Experiment button, and you will see the Experiment import screen, once
+ you have selected your file you will see a screen similar to the following:</p>
+<p><img alt="Verification Screen" src="../images/verification-screen.png" /></p>
+<p>This screen shows the probes and the single action that have been found in your experiment file.
+It will also show the generated objective name and verification name, you can
+change these as required.</p>
+<p>You can then specify the target percentage for you objective and over what
+time window that objective applies to.</p>
+<p>The next thing is to set the run-time parameters for the verification, in my
+case, I expect my URL to respond in between 3 and 7 seconds, so I have selected
+to run the verification every 10 seconds, and as the CPU load is applied for a
+period of 3 minutes, a duration for the experiment of 5 minutes seemed reasonable.</p>
+<p>Now you can select the Create Verification and View Execution Steps, button at the
+end of the page. You will be taken to the run verification page. This page shows
+you how to run the verification in a local terminal where the Chaos Toolkit is installed
+ along with <a href="/gettingstarted/prerequisites/#add-the-chaosiq-plugin-to-your-chaos-toolkit">Chaos-Cloud plugin</a>. You will also need to be
+ signed in to the Reliability Toolkit, please refer to these documentation links,
+ to <a href="/gettingstarted/signin">signin to ChaosIQ</a> with a token and select your default <a href="/organizations-and-teams/switching-organizations">organization</a> and <a href="/organizations-and-teams/switching-teams">team</a>.</p>
+<p><img alt="Run Verification" src="../images/run-verification.png" /></p>
+<h2 id="run-the-verification">Run the Verification<a class="headerlink" href="#run-the-verification" title="Permanent link">&para;</a></h2>
+<p>You can either run the verification from the URL provided or you can download
+the verification and run it locally, or form any of the other places we have documented. The verification created is shown below:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+    <span class="nt">&quot;version&quot;</span><span class="p">:</span> <span class="s2">&quot;1.0.0&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Expect a quick response from a request to a server on an  EC2 instance when the processor is loaded&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Expect a quick response when the processor is loaded with an AWS SSM command.&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;tags&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;response-time&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;configuration&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;endpoint_url&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;env&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;key&quot;</span><span class="p">:</span> <span class="s2">&quot;ENDPOINT_URL&quot;</span>
+        <span class="p">},</span>
+        <span class="nt">&quot;instance_id&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;env&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;key&quot;</span><span class="p">:</span> <span class="s2">&quot;INSTANCE_ID&quot;</span>
+        <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="nt">&quot;contributions&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;reliability&quot;</span><span class="p">:</span> <span class="s2">&quot;medium&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;security&quot;</span><span class="p">:</span> <span class="s2">&quot;none&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;scalability&quot;</span><span class="p">:</span> <span class="s2">&quot;medium&quot;</span>
+    <span class="p">},</span>
+    <span class="nt">&quot;steady-state-hypothesis&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;EC2 instance should respond within 6 seconds&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;probes&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="p">{</span>
+                <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;http-response-time&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;probe&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;provider&quot;</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;python&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;module&quot;</span><span class="p">:</span> <span class="s2">&quot;chaoscloud.probes.http&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;func&quot;</span><span class="p">:</span> <span class="s2">&quot;time_http_call&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;arguments&quot;</span><span class="p">:</span> <span class="p">{</span>
+                        <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;${endpoint_url}&quot;</span>
+                    <span class="p">}</span>
+                <span class="p">},</span>
+                <span class="nt">&quot;tolerance&quot;</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;http-response-time-under&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;probe&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;provider&quot;</span><span class="p">:</span> <span class="p">{</span>
+                        <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;python&quot;</span><span class="p">,</span>
+                        <span class="nt">&quot;module&quot;</span><span class="p">:</span> <span class="s2">&quot;chaoscloud.tolerances.http&quot;</span><span class="p">,</span>
+                        <span class="nt">&quot;func&quot;</span><span class="p">:</span> <span class="s2">&quot;response_time_under&quot;</span><span class="p">,</span>
+                        <span class="nt">&quot;arguments&quot;</span><span class="p">:</span> <span class="p">{</span>
+                            <span class="nt">&quot;duration&quot;</span><span class="p">:</span> <span class="mi">6000</span>
+                        <span class="p">}</span>
+                    <span class="p">}</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">]</span>
+    <span class="p">},</span>
+    <span class="nt">&quot;method&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;action&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;inject-cpu-load&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;provider&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;process&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;aws&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;arguments&quot;</span><span class="p">:</span> <span class="s2">&quot;ssm send-command --document-name \&quot;cpu-stress\&quot;</span>
+<span class="s2">--document-version \&quot;1\&quot; --targets &#39;[{\&quot;Key\&quot;:\&quot;InstanceIds\&quot;,</span>
+<span class="s2">\&quot;Values\&quot;:[\&quot;${instance_id}\&quot;]}]&#39; --parameters &#39;{\&quot;duration\&quot;:[\&quot;180\&quot;],</span>
+<span class="s2">\&quot;cpu\&quot;:[\&quot;0\&quot;]}&#39; --timeout-seconds 60 --max-concurrency \&quot;50\&quot;</span>
+<span class="s2">--max-errors \&quot;0\&quot; --output-s3-bucket-name \&quot;gtf-chaos-output\&quot;</span>
+<span class="s2">--cloud-watch-output-config &#39;{\&quot;CloudWatchOutputEnabled\&quot;:true}&#39;</span>
+<span class="s2">--region eu-west-1 --query &#39;Command.CommandId&#39; &gt; CommandId.info&quot;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;rollbacks&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;action&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Stop SSM run command&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;provider&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;process&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;aws&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;arguments&quot;</span><span class="p">:</span> <span class="s2">&quot;ssm cancel-command --command-id $(cat CommandId.info) &quot;</span>
+            <span class="p">},</span>
+            <span class="nt">&quot;pauses&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="nt">&quot;after&quot;</span><span class="p">:</span> <span class="mi">10</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;extensions&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;chaosiq&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;experiment_id&quot;</span><span class="p">:</span> <span class="s2">&quot;461d862b-0a5f-45cf-ab66-bc0aef02a59c&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;objective_id&quot;</span><span class="p">:</span> <span class="s2">&quot;997da1a4-c511-4337-9652-4b9a25c5cbfe&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;verification&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;dd1e52d0-454a-40b8-8864-5d34834191e6&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;frequency-of-measurement&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+                <span class="nt">&quot;duration-of-conditions&quot;</span><span class="p">:</span> <span class="mf">300.0</span>
+            <span class="p">},</span>
+            <span class="nt">&quot;team_id&quot;</span><span class="p">:</span> <span class="s2">&quot;f3a36d51-2486-4eb1-9fe3-29b4ea8fb387&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;org_id&quot;</span><span class="p">:</span> <span class="s2">&quot;ae4458ef-a457-4bd5-8e6b-7c7a21db6d7f&quot;</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>The verification be run with:</p>
+<div class="highlight"><pre><span></span><code> <span class="nv">ENDPOINT_URL</span><span class="o">=</span>http://ec2-52-18-8-61.eu-west-1.compute.amazonaws.com/random/4 <span class="se">\</span>
+ <span class="nv">INSTANCE_ID</span><span class="o">=</span>i-086ccae1f2de9b012 <span class="se">\</span>
+ chaos verify verification-ec2-responds-processor-load.json
+</code></pre></div>
+
+<p>The <code>ENDPOINT_URL</code> and the <code>INSTANCE_ID</code>, should be replaced with values
+for your own EC2 instance.</p>
+<h2 id="summary-timeline">Summary Timeline<a class="headerlink" href="#summary-timeline" title="Permanent link">&para;</a></h2>
+<p>The verification will run for five minutes and you can see it in the running
+state on the Reliability Toolkit Summary Timeline page:</p>
+<p><img alt="Summary Timeline" src="../images/summary-timeline.png" /></p>
+<p>Great job! You&rsquo;ve run your SSM verification and surfaced the experiment&rsquo;s information into your Timeline. The Timeline is the place where you begin to explore and understand What Happened(TM), exploring your verification as a planned incident to see how your system reacted and verify the many different parallel activities that occur at the same time during the verification&rsquo;s execution.</p>
+<h2 id="verification-insights">Verification Insights<a class="headerlink" href="#verification-insights" title="Permanent link">&para;</a></h2>
+<p>In addition to populating your Reliability Summary Timeline, when the
+verification has completed an insights view will be generated for the
+verification:</p>
+<p><img alt="Insights" src="../images/insights.png" /></p>
+<p>The insights page shows the details of the verification that has been run and a
+timeline showing the measurements made during the verification. This includes
+successful measurements and deviated measurements. It also shows the observed
+impact on the error budget. This indicates that there are some issues with this
+service, that will some attention to rectify its reliability issues.</p>
+<p>In this tutorial you have covered the steps to create and EC2 instance and run an
+AWS Systems Command against it using the Chaos Toolkit, using an
+ experiment and a verification. We have also looked at some of the views that
+ are generated in the ChaosIQ Reliability Toolkit.</p>
                 
               
               
@@ -1147,7 +1438,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../experiment-format/" title="Experiment Format" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../gettingstarted/run-first-verification/" title="Run your first Verification" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
             </div>
@@ -1156,19 +1447,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Experiment Format
+                Run your first Verification
               </div>
             </div>
           </a>
         
         
-          <a href="../execution-profile/" title="Execution Profile" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../timeline/timeline/" title="Reliability Timelines" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Execution Profile
+                Reliability Timelines
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
