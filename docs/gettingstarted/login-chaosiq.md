@@ -6,9 +6,9 @@ When you select your preferred authentication provider you will be prompted for 
 
 ![Welcome Page][welcome-page]
 
-You can enter your preferred email address at this point, this can be different from the email address provided by the authentication provider. You are also asked to accept ChaosIQ terms of Service and give ChaosIQ permission to store your data.
+You can enter your preferred email address, which can be different from the email address provided by the authentication provider. You are also asked to accept ChaosIQ Terms of Service and give ChaosIQ permission to store your data.
 
-You will then be asked to choose a plan, ChaosIQ are currently only offering the Early Access Plan (more plans will follow):
+You will then be asked to choose a plan. ChaosIQ are currently only offering the Early Access Plan (more plans will follow):
 
 
 ![Choose Plan][choose-plan]
@@ -24,7 +24,7 @@ Normally at this point users subscribe and create an Organization and teams to s
 
 ![Organization Name][organization-name]
 
-Enter an Organization name, the Organization name has to be unique, it can't be one that has been used before within ChaosIQ. You will then be asked to create a team. Teams are where your Objectives are defined and where Chaos Experiments are run. It can represent a real-life team, or a specific project or system
+Enter an Organization name, which must be unique within ChaosIQ. You will then be asked to create a team. A team is where your Objectives are defined and where Chaos Experiments are run. It can represent a real-life team, or a specific project or system.
 
 ![Team Name][team-name]
 
@@ -32,12 +32,12 @@ Once you have created the team name you will be taken to your teams start page w
 
 ![Team Name][team-start-page]
 
-*That’s it!* You have authenticated  and logged in to ChaosIQ, you have created your Organization and a Team you are all set to start using the ChaosIQ tools.
+*That’s it!* You have authenticated  and logged in to ChaosIQ, you have created your Organization and a Team so you are all set to start using the ChaosIQ tools.
 
 
 ### Skipping subscription
 
-If you selected to *Skip this* at the subscribe stage you will be taken to the ChaosIQ start page:
+If you selected to *Skip this* at the subscribe stage, then you will be taken to the ChaosIQ start page:
 
 ![Start Page][start-page]
 

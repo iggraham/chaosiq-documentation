@@ -57,7 +57,7 @@ Commands:
   enable    Enable a ChaosIQ feature
   info      Display information about the Chaos Toolkit environment.
   init      Initialize a new experiment from discovered capabilities.
-  org       Set ChaosIQ organisation
+  org       Set ChaosIQ organization
   publish   Publish your experiment's journal to ChaosIQ
   run       Run the experiment loaded from SOURCE, either a local file or a...
   signin    Sign-in with your ChaosIQ credentials

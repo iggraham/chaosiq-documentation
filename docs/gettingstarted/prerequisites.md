@@ -77,7 +77,7 @@ The next thing you will need is access to ChaosIQ. You will need access to [http
 
 ### Authentication
 
-Currently ChaosIQ supports two authentication providers Github and Google, so you will need either a Google account or a Github account, that you can use. This is really only required for the authentication step, after you login you can change the email address you wish to use and create your organization as required.
+Currently ChaosIQ supports two authentication providers, Github and Google, so you will need either a Google account or a Github account that you can use. This is really only required for the authentication step. After you log in you can change the email address you wish to use and create your organization as required.
 
 *That’s it!* You’ve got a working installation of the Chaos Toolkit CLI and the chaosiq-cloud plugin installed.  You have access to ChaosIQ and hopefully have a Github or Google account that you can authenticate with.
 The next step is [Login to ChaosIQ](./login-chaosiq.md).

@@ -10,7 +10,7 @@ In the early days of the free and open source [Chaos Toolkit](https://chaostoolk
 
 The Chaos Toolkit is still the open core of ChaosIQ and we remain as dedicated as ever to working closely with the whole community to make the toolkit as powerful as possible. At the same time, ChaosIQ is designed with a different, extended goal in mind.
 
-The Chaos Toolkit is specifically designed to help individuals and organizations write and execute powerful and customizable chaos engineering experiments. Whereas ChaosIQ is designed to help organisations scale out [chaos engineering and system verification](https://chaosiq.io/resources/chaos-engineering/from-chaos-to-verification) across all their teams.
+The Chaos Toolkit is specifically designed to help individuals and organizations write and execute powerful and customizable chaos engineering experiments. Whereas ChaosIQ is designed to help organizations scale out [chaos engineering and system verification](https://chaosiq.io/resources/chaos-engineering/from-chaos-to-verification) across all their teams.
 
 For this reason ChaosIQ provides a cross-organizational experience that include capabilities such as [Safeguards](https://chaosiq.io/resources/tutorials/safeguards-with-google-cloud-functions), centralised dashboards and the authoring and execution of system verifications. All of this is provided in the first instance as a Software as a Service (SaaS), hosted by ChaosIQ on our own systems. The actual chaos engineering experiments, and system verifications, are still executed locally by the Chaos Toolkit, which is extended to add some of these capabilities including the ability to talk back to ChaosIQ:
 
@@ -39,7 +39,7 @@ The final category of users are those that _really_ want to run ChaosIQ within t
 
 ## The Self-Hosted Option
 
-Self Hosted is often referred to as "On Premise" or an "Enterprise Option", although it really means that the customer has to meet the requiremenjt of running anything involved in system verification and chaos engineering, in any capacity, within and on their own systems:
+Self Hosted is often referred to as "On Premise" or an "Enterprise Option", although it really means that the customer has to meet the requirement of running anything involved in system verification and chaos engineering, in any capacity, within and on their own systems:
 
 
 ![ChaosIQ Self-Hosted gives you the option to run ChaosIQ for yourself.][selfhosted]
@@ -50,7 +50,7 @@ For these customers we provide auto-updates to their hosted ChaosIQ systems that
 
 ## What about customisation options?
 
-All of the three deployment options, from SaaS, Single-Tennant SaaS through to Self-Hosted, offers powerful features for customisation. Whether it be integrating experiments and verifications with your own systems, or building unique safeguards, the Chaos Toolkit was built with customisation in mind, and ChaosIQ leverage and contribute to that as well.
+All of the three deployment options, from SaaS, Single-Tenant SaaS through to Self-Hosted, offer powerful features for customisation. Whether it be integrating experiments and verifications with your own systems, or building unique safeguards, the Chaos Toolkit was built with customisation in mind, and ChaosIQ leverage and contribute to that as well.
 
 By their nature, Self-Hosted deployments sometimes require more bespoke customisations with your systems and so part of the plan for those customers is to be able to opt for custom development from our ChaosIQ Special Ops team.
 
